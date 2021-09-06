@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PlusOne",
+            "request": "launch",
+            "mainClass": "com.math.PlusOne",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch SinglyLinkedList",
             "request": "launch",
             "mainClass": "com.main.SinglyLinkedList",

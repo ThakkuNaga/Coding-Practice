@@ -1,0 +1,203 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch SinglyLinkedList",
+            "request": "launch",
+            "mainClass": "com.main.SinglyLinkedList",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSubArraySum",
+            "request": "launch",
+            "mainClass": "com.array.MaxSubArraySum",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Balance_Parentheses",
+            "request": "launch",
+            "mainClass": "com.string.Balance_Parentheses",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "com.main.Main",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsPalindrome",
+            "request": "launch",
+            "mainClass": "com.array.IsPalindrome",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoSum",
+            "request": "launch",
+            "mainClass": "com.array.TwoSum",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortedSquareArray",
+            "request": "launch",
+            "mainClass": "com.array.SortedSquareArray",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProductOfArrayExceptSelf",
+            "request": "launch",
+            "mainClass": "com.array.ProductOfArrayExceptSelf",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch First_Non_Repeating_Character",
+            "request": "launch",
+            "mainClass": "com.string.First_Non_Repeating_Character",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Longest_Common_Prefix",
+            "request": "launch",
+            "mainClass": "com.string.Longest_Common_Prefix",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraySolutions",
+            "request": "launch",
+            "mainClass": "com.array.ArraySolutions",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ContainsDuplicate",
+            "request": "launch",
+            "mainClass": "com.array.ContainsDuplicate",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxStockProfit",
+            "request": "launch",
+            "mainClass": "com.array.MaxStockProfit",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicates",
+            "request": "launch",
+            "mainClass": "com.array.RemoveDuplicates",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch RoatateArray",
+            "request": "launch",
+            "mainClass": "com.array.RoatateArray",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch RoatateMatrix",
+            "request": "launch",
+            "mainClass": "com.array.RoatateMatrix",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleNumber",
+            "request": "launch",
+            "mainClass": "com.array.SingleNumber",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountAndSay",
+            "request": "launch",
+            "mainClass": "com.string.CountAndSay",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindUniqueChar",
+            "request": "launch",
+            "mainClass": "com.string.FindUniqueChar",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch HayStackNeedle",
+            "request": "launch",
+            "mainClass": "com.string.HayStackNeedle",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsPalindrome",
+            "request": "launch",
+            "mainClass": "com.string.IsPalindrome",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseInteger",
+            "request": "launch",
+            "mainClass": "com.string.ReverseInteger",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseString",
+            "request": "launch",
+            "mainClass": "com.string.ReverseString",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringToNumber",
+            "request": "launch",
+            "mainClass": "com.string.StringToNumber",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Valid_Anagram",
+            "request": "launch",
+            "mainClass": "com.string.Valid_Anagram",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Valid_Parentheses",
+            "request": "launch",
+            "mainClass": "com.string.Valid_Parentheses",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Utils",
+            "request": "launch",
+            "mainClass": "com.utils.Utils",
+            "projectName": "Coding-Practice_e4623718"
+        }
+    ]
+}

@@ -2,7 +2,7 @@ package com.array;
 
 import com.utils.Utils;
 
-public class RemoveElement {
+class RemoveElement {
     public static void main(String[] args) {
 
         int val = 2;
@@ -15,7 +15,7 @@ public class RemoveElement {
     }
 
     public static int removeElement(int[] nums, int val) {
-        int i = 0;        
+        int i = 0;
         for (int j = 0; j < nums.length; j++) {
 
             if (nums[j] != val) {

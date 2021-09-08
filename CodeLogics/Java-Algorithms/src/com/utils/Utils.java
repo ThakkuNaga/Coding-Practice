@@ -3,7 +3,6 @@ package com.utils;
 import java.util.Arrays;
 
 import com.linkedlist.Node;
-import com.linkedlist.SinglyLinkedList;
 
 public class Utils {
 

@@ -2,6 +2,9 @@ package com.utils;
 
 import java.util.Arrays;
 
+import com.linkedlist.Node;
+import com.linkedlist.SinglyLinkedList;
+
 public class Utils {
 
     public static void main(String[] args) {
@@ -51,24 +54,24 @@ public class Utils {
         System.out.println(obj);
     }
 
-    public static void prtLst(SinglyLinkedList lList) {
-        Node head = lList.head;
-        StringBuilder sb = new StringBuilder();
-        sb.append(head.data+"->");
-        Node current = head.next;
-        while(current!=null){
-            sb.append(current.data+"->");
-            current = current.next;
-        }
-        System.out.println(sb.toString());
-    }
+    // public static void prtLst(SinglyLinkedList Llist) {
+    //     Node head = Llist.head;
+    //     StringBuilder sb = new StringBuilder();
+    //     sb.append(head.val+"->");
+    //     Node current = head.next;
+    //     while(current!=null){
+    //         sb.append(current.val+"->");
+    //         current = current.next; 
+    //     }
+    //     System.out.println(sb.toString());
+    // }
 
     public static void prtLst(Node head) {
         StringBuilder sb = new StringBuilder();
-        sb.append(head.data+"->");
-        Node current = head.next;
+        sb.append(head.val+"->");
+        Node current = head.next; 
         while(current!=null){
-            sb.append(current.data+"->");
+            sb.append(current.val+"->");
             current = current.next;
         }
         System.out.println(sb.toString());

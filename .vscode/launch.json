@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "com.array.BinarySearch",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch MergeTwoSortedList",
             "request": "launch",
             "mainClass": "com.linkedlist.MergeTwoSortedList",

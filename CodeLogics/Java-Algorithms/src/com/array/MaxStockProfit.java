@@ -1,13 +1,18 @@
 package com.array;
 
-public class MaxStockProfit {
+public class MaxStockProfit { // 122. Best Time to Buy and Sell Stock II
+    // On each day, you may decide to buy and/or sell the stock. You can only hold
+    // at most one share of the stock at any time. However, you can buy it then
+    // immediately sell it on the same day.
 
     public static void main(String[] args) {
 
         int[] prices = { 7, 1, 5, 3, 6, 4 };
         // prices={7,6,4,3,1};
         // prices={1,2,3,4,5};
-        System.out.println("maxProfit is: " + maxProfit2(prices));
+
+        System.out.println("maxProfit is: " + maxProfit(prices));
+        // System.out.println("maxProfit is: " + maxProfit2(prices));
 
     }
 

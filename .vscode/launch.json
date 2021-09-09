@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MatrixReshape",
+            "request": "launch",
+            "mainClass": "com.array.MatrixReshape",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxStockProfit_2",
+            "request": "launch",
+            "mainClass": "com.array.MaxStockProfit_2",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array_Intersection_2",
+            "request": "launch",
+            "mainClass": "com.array.Array_Intersection_2",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array_Intersection_1",
+            "request": "launch",
+            "mainClass": "com.array.Array_Intersection_1",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch BinarySearch",
             "request": "launch",
             "mainClass": "com.array.BinarySearch",

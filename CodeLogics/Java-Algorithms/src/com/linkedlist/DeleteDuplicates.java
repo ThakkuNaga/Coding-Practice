@@ -4,8 +4,11 @@ import com.utils.Utils;
 
 public class DeleteDuplicates {
     public static void main(String[] args) {
+        // [1,1,2]
+        // [1,1,1]
+        // [1,1,2,3,3]
 
-        Node head =  new SinglyLinkedList().CreateLinkedList(new int[] { 1, 5, 5, 5, 6, 7, 7 });
+        Node head = new SinglyLinkedList().CreateLinkedList(new int[] { 1, 1, 1 });
         Utils.prtLst(head);
 
         Utils.prtLst(deleteDuplicates(head));

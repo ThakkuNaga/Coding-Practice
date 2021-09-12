@@ -13,7 +13,7 @@ public class Utils {
         prtArr(nums);
         prtArr(str);
         prt2D(mat);
-        prtArr(mat);
+        prtMatArr(mat);
     }
 
     public static void prtArr(int[] nums) {
@@ -34,7 +34,7 @@ public class Utils {
 
     }
 
-    public static void prtArr(int[][] mat) {
+    public static void prtMatArr(int[][] mat) {
         System.out.println(Arrays.deepToString(mat));
         System.out.println();
     }

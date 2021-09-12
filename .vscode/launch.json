@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AddBinary",
+            "request": "launch",
+            "mainClass": "com.math.AddBinary",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch MatrixReshape",
             "request": "launch",
             "mainClass": "com.array.MatrixReshape",

@@ -1,4 +1,4 @@
-package com.array;
+package com.matrix;
 
 import com.utils.Utils;
 
@@ -9,10 +9,10 @@ public class RoatateMatrix {
         int[][] matrix = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
 
         Utils.prt2D(matrix);
-        Utils.prtArr(matrix);
+        Utils.prtMatArr(matrix);
         rotate2(matrix);
         Utils.prt2D(matrix);
-        Utils.prtArr(matrix);
+        Utils.prtMatArr(matrix);
     }
 
     // Approach #1 (Rotate Groups of Four Cells) [Accepted]

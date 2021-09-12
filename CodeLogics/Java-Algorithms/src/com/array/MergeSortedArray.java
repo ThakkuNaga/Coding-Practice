@@ -19,6 +19,8 @@ public class MergeSortedArray {
         int n = 3;
 
         mergeSortedArray(nums1, m, nums2, n);
+        mergeSortedArray2(nums1, m, nums2, n);
+        mergeSortedArray_Naive(nums1, m, nums2, n);
 
         Utils.prtArr(nums1);
 

@@ -1,4 +1,4 @@
-package com.array;
+package com.matrix;
 
 import com.utils.Utils;
 

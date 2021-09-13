@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AddToArray",
+            "request": "launch",
+            "mainClass": "com.math.AddToArray",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseLinkedList",
+            "request": "launch",
+            "mainClass": "com.linkedlist.ReverseLinkedList",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveElementFrmList",
+            "request": "launch",
+            "mainClass": "com.linkedlist.RemoveElementFrmList",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch AddBinary",
             "request": "launch",
             "mainClass": "com.math.AddBinary",

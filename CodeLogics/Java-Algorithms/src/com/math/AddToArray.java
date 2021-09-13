@@ -1,6 +1,6 @@
 package com.math;
-
-import java.util.*;
+ 
+import java.util.*; 
 
 import com.utils.Utils;
 
@@ -20,7 +20,7 @@ public class AddToArray {
         // int k = 1;
         Utils.prtArr(num);
         Utils.prt(k);
-        Utils.prt(addToArrayForm(num, k));
+        Utils.prt(addToArrayForm2(num, k));
 
     }
 
@@ -40,7 +40,7 @@ public class AddToArray {
     public static List<Integer> addToArrayForm2(int[] num, int k) {
 
         int i = num.length;
-        List<Integer> ans = new ArrayList<>();
+        ArrayList<Integer> ans = new ArrayList<Integer>();
 
         while (--i >= 0 || k > 0) {
             if (i >= 0)
@@ -49,7 +49,7 @@ public class AddToArray {
             k /= 10;
         }
 
-        Collections.reverse(ans); 
+        //Collections.reverse(Arrays.asList(ans)); 
         return ans;
 
     }

@@ -6,8 +6,8 @@ public class Valid_Parentheses {
 
 	public static void main(String[] args) {
 
-		String s = "(";
-		System.out.println(isValid3(s));
+		String s = "([}}])";
+		System.out.println(isValid4(s));
 
 	}
 
@@ -33,6 +33,28 @@ public class Valid_Parentheses {
 			}
 		}
 		return head == 0;
+	}
+
+	public static boolean isValid4(String s) {
+		if (s.length() % 2 != 0)
+			return false;
+
+		Stack<Character> stack = new Stack<Character>();
+		for (char c : s.toCharArray()) {
+			if (c == '(' || c == '{' || c == '[') {
+				stack.push(c);
+			} else if (c == ')' && !stack.isEmpty() && stack.peek() == '(') {
+				stack.pop();
+			} else if (c == '}' && !stack.isEmpty() && stack.peek() == '{') {
+				stack.pop();
+			} else if (c == ']' && !stack.isEmpty() && stack.peek() == '[') {
+				stack.pop();
+			}else{
+				return false;
+			}
+		}
+		return stack.isEmpty();
+
 	}
 
 	public static boolean isValid(String s) {

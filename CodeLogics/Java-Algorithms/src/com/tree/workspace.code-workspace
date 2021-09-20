@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\.."
+		},
+		{
+			"name": "Java-Algorithms",
+			"path": "..\\..\\..\\..\\..\\Java-Algorithms"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

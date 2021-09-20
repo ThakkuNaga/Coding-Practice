@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BST_InOrder",
+            "request": "launch",
+            "mainClass": "com.tree.BST_InOrder",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BST_PostOrder",
+            "request": "launch",
+            "mainClass": "com.tree.BST_PostOrder",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BST_PreOrder",
+            "request": "launch",
+            "mainClass": "com.tree.BST_PreOrder",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SameTree",
+            "request": "launch",
+            "mainClass": "com.tree.SameTree",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BST_Inorder",
+            "request": "launch",
+            "mainClass": "com.tree.BST_Inorder",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTree",
+            "request": "launch",
+            "mainClass": "com.tree.BinaryTree",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BT_Traversal",
+            "request": "launch",
+            "mainClass": "com.tree.BT_Traversal",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch AddToArray",
             "request": "launch",
             "mainClass": "com.math.AddToArray",

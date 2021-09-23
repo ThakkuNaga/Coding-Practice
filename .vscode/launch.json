@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MaxDepth",
+            "request": "launch",
+            "mainClass": "com.tree.MaxDepth",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SymmetricTree",
+            "request": "launch",
+            "mainClass": "com.tree.SymmetricTree",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch BST_InOrder",
             "request": "launch",
             "mainClass": "com.tree.BST_InOrder",

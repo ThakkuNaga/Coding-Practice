@@ -15,6 +15,7 @@ public class Valid_Anagram {
         t = "ccac";
         t = "car";
         Utils.prt(isAnagram1(s, t));
+        Utils.prt(isAnagram2(s, t));
     }
 
     public static boolean isAnagram(String s, String t) {

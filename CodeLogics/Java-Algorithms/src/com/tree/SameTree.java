@@ -21,6 +21,8 @@ public class SameTree {
 
         System.out.println(preOrderTraversal(tree1.root).equals(preOrderTraversal(tree2.root)));
 
+        System.out.println(isSameTreeRecursive(tree1.root,tree2.root));
+
     }
 
     public static List<Integer> preOrderTraversal(TreeNode root) {
@@ -45,6 +47,16 @@ public class SameTree {
                 res.add(null);
             }
         }
+    }
+
+    public static boolean isSameTreeRecursive(TreeNode p, TreeNode q) {
+        // p and q are both null
+        if (p == null && q == null) return true;
+        // one of p and q is null
+        if (q == null || p == null) return false;
+        if (p.val != q.val) return false;
+        return isSameTreeRecursive(p.right, q.right) &&
+        isSameTreeRecursive(p.left, q.left);
     }
 
     public static boolean check(TreeNode p, TreeNode q) {

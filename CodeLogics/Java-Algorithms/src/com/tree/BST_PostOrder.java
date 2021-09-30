@@ -15,6 +15,7 @@ public class BST_PostOrder {
 
         System.out.println(postOrderRecursive(tree.root));
         System.out.println(postOrderIterative(tree.root));
+        System.out.println(postOrderTraversal(tree.root));
     }
 
     public static List<Integer> postOrderRecursive(TreeNode root) {
@@ -35,6 +36,22 @@ public class BST_PostOrder {
 
             res.add(root.val);
         }
+    }
+
+    public static List<Integer> postOrderTraversal(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        while(root != null || !stack.isEmpty()) {
+            while(root != null) {
+                stack.add(root);
+                list.add(0, root.val);
+                root = root.right;
+            }
+            root = stack.pop();
+            root = root.left;
+        }
+        
+        return list;
     }
 
     public static List<Integer> postOrderIterative(TreeNode node) {

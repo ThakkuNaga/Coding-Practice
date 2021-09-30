@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
-public class BST_PreOrder {
+public class Tree_Traversal {
 
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
@@ -15,9 +15,8 @@ public class BST_PreOrder {
 
         BinaryTree.print2DTree(tree.root);
 
-        // System.out.println(preOrderRecursive(tree.root));
-        // System.out.println(preorderIterative(tree.root));
-        // System.out.println(preorderTraversal(tree.root));
+        System.out.println(preorderTraversal1(tree.root));
+        System.out.println(preorderTraversal1(tree.root));
         System.out.println(preorderTraversal1(tree.root));
     }
 
@@ -29,7 +28,9 @@ public class BST_PreOrder {
 
     public static void helper(TreeNode root, List<Integer> res) {
         if (root != null) {
+
             res.add(root.val);
+
             if (root.left != null) {
                 helper(root.left, res);
             }

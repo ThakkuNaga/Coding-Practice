@@ -8,7 +8,7 @@ public class BST_InOrder {
 
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
-        int arr[] = { 1, 2, 3, 4, 5, 4, 5 };
+        int arr[] = { 1, 2, 5, 3, 4, 6, 7 };
         tree.root = BinaryTree.createBinaryTree(arr, tree.root, 0);
 
         BinaryTree.print2DTree(tree.root);

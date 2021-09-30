@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Tree_Traversal_Rec",
+            "request": "launch",
+            "mainClass": "com.tree.Tree_Traversal_Rec",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tree_Traversal_Itr",
+            "request": "launch",
+            "mainClass": "com.tree.Tree_Traversal_Itr",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch MaxDepth",
             "request": "launch",
             "mainClass": "com.tree.MaxDepth",

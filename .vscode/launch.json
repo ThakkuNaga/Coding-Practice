@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FirstBadVersion",
+            "request": "launch",
+            "mainClass": "com.array.FirstBadVersion",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInsertPosition",
+            "request": "launch",
+            "mainClass": "com.array.SearchInsertPosition",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveElement",
+            "request": "launch",
+            "mainClass": "com.array.RemoveElement",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleNumberII",
+            "request": "launch",
+            "mainClass": "com.array.SingleNumberII",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleNumber_II",
+            "request": "launch",
+            "mainClass": "com.array.SingleNumber_II",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Challenge1",
+            "request": "launch",
+            "mainClass": "com.stream.Challenge1",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Streams",
+            "request": "launch",
+            "mainClass": "com.stream.Streams",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch StreamTest",
+            "request": "launch",
+            "mainClass": "com.stream.StreamTest",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Multithread",
+            "request": "launch",
+            "mainClass": "com.thread.Multithread",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchMatrix",
+            "request": "launch",
+            "mainClass": "com.matrix.SearchMatrix",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch Tree_Traversal_Rec",
             "request": "launch",
             "mainClass": "com.tree.Tree_Traversal_Rec",

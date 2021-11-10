@@ -6,11 +6,8 @@ public class RemoveDuplicates {
 
     public static void main(String[] args) {
 
-        int[]
-          nums = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
-        //nums = { 1, 1, 2 };
-        
-        Utils.prt(removeDuplicates(nums));
+        int[] nums = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+        Utils.prtLn(removeDuplicates(nums));
         Utils.prtArr(nums);
     }
 

@@ -29,12 +29,12 @@ public class ReverseString {
         //     s[s.length - i - 1] = tmp;
         // }
 
-        // StringBuilder sb = new StringBuilder(s.length);
+        StringBuilder sb = new StringBuilder(s.length);
 
-        // for (int i = s.length - 1; i >= 0; i--) {
-        //     sb.append(s[i]);           
-        // }
-        // s = sb.toString().toCharArray();         
-        // System.out.println(s);
+        for (int i = s.length - 1; i >= 0; i--) {
+            sb.append(s[i]);           
+        }
+        s = sb.toString().toCharArray();         
+        //System.out.println(s);
     }
 }

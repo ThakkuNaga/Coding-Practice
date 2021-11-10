@@ -5,30 +5,27 @@ import com.utils.Utils;
 public class SortedSquareArray {
 
     public static void main(String[] args) {
-        int[] nums = { -6, -4, 1, 2, 3, 5 };
+        int[] nums = { -6, -4, 1, 2, -3, -5 };
         // 0 1 2 3 4 5
         Utils.prtArr(sortedSquareArray(nums));
-
     }
 
     public static int[] sortedSquareArray(int[] nums) {
-        int N = nums.length;
-        int[] result = new int[N];
+        int len = nums.length;
+        int[] result = new int[len];
 
-        int L = 0;
-        int R = N - 1;
-        for (int i = N - 1; i >= 0; i--) {
+        int left = 0;
+        int right = len - 1;
+        for (int i = len - 1; i >= 0; i--) {
 
-            if (Math.abs(nums[L]) > nums[R]) {
-                result[i] = nums[L] * nums[L];
-                L++;
+            if (Math.abs(nums[left]) > Math.abs(nums[right])) {
+                result[i] = nums[left] * nums[left];
+                left++;
             } else {
-                result[i] = nums[R] * nums[R];
-                R--;
+                result[i] = nums[right] * nums[right];
+                right--;
             }
-
         }
-
         return result;
     }
 

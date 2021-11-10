@@ -10,10 +10,10 @@ public class RoatateArray {
         int[] nums = { 1, 2, 3, 4, 5, 6, 7 };
         // nums = { 1, 1, 2 };
         Utils.prtArr(nums);
-       // roatateArray(nums, k);
-       // Utils.prtArr(nums);
+        roatateArray(nums, k);
+        //Utils.prtArr(nums);
 
-        rotate(nums, k);
+       // rotate(nums, k);
     }
 
     // Approach #1 (reverse) [Accepted]
@@ -25,6 +25,7 @@ public class RoatateArray {
     }
 
     public static void reverse(int[] nums, int start, int end) {
+        Utils.prt(start,end);
         while (start < end) {
             int temp = nums[start];
             nums[start] = nums[end];
@@ -32,6 +33,8 @@ public class RoatateArray {
             start++;
             end--;
         }
+        
+        Utils.prtArr(nums);
     }
 
     // Approach #2 (Extra array) [Accepted]

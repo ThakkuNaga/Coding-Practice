@@ -9,7 +9,7 @@ public class FindUniqueChar {
     public static void main(String[] args) {
         String s = "loveleetcode";
         Utils.prtArr(s.toCharArray());
-        Utils.prt(findUniqueChar(s));
+        Utils.prtLn(findUniqueChar(s));
     }
 
     private static Object findUniqueChar(String s) {

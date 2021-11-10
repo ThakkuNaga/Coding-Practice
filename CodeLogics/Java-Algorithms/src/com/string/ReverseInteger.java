@@ -7,7 +7,7 @@ public class ReverseInteger {
     public static void main(String[] args) {
 
         int x = 12345678;
-        Utils.prt(reverseInteger(x));
+        Utils.prtLn(reverseInteger(x));
 
     }
 

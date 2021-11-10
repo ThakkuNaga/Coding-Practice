@@ -5,7 +5,7 @@ import com.utils.Utils;
 public class BinarySearch {
     public static void main(String[] args) {
 
-        int target = 0;
+        int target = 6;
         int[] nums = { 1, 3, 5, 6 };
 
         Utils.prtArr(nums);

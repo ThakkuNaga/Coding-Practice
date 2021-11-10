@@ -11,7 +11,7 @@ public class Linked_List_Cycle {
         Node head = new SinglyLinkedList().CreateLinkedList(new int[] { 3, 2, 0, -4 });
         Utils.prtLst(head);
 
-        Utils.prt(hasCycle(head));
+        Utils.prtLn(hasCycle(head));
     }
 
     public static boolean hasCycle(Node head) {

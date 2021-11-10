@@ -9,8 +9,9 @@ class RemoveElement {
         int[] nums = { 0, 1, 2, 2, 3, 0, 4, 2 };
         Utils.prtArr(nums);
         System.out.println(removeElement(nums, val));
-        System.out.println(removeElementFrmArr(nums, val));
         Utils.prtArr(nums);
+        // System.out.println(removeElementFrmArr(nums, val));
+        // Utils.prtArr(nums);
 
     }
 

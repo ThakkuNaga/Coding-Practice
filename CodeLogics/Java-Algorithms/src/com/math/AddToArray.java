@@ -19,8 +19,8 @@ public class AddToArray {
         // int[] num = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 };
         // int k = 1;
         Utils.prtArr(num);
-        Utils.prt(k);
-        Utils.prt(addToArrayForm2(num, k));
+        Utils.prtLn(k);
+        Utils.prtLn(addToArrayForm2(num, k));
 
     }
 

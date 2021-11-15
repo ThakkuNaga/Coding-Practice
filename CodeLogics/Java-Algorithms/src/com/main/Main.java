@@ -3,8 +3,8 @@ package com.main;
 public class Main {
     public static void main(String... args) throws Exception {
 
-        String str = "WELCOME";
-
+        String str = "race ecar";
+        
         char[] chrArr = str.toCharArray();
 
         int left = 0, right = 0;
@@ -22,6 +22,7 @@ public class Main {
 
         System.out.println(new String(chrArr));
 
+        System.out.println(new String(chrArr).equalsIgnoreCase(str)?"Yes":"No");
     }
 
 }

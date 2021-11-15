@@ -1,10 +1,12 @@
 package com.string;
 
+import com.utils.Utils;
+
 public class IsPalindrome {
 
     public static void main(String[] args) {
-        String s = "race a car";// "A man, a plan, a canal: Panamab";
-        System.out.println(isPalindrome(s));
+        String s = "race ecar";// "A man, a plan, a canal: Panamab";
+        Utils.prtLn(isPalindrome(s), isPalindrome1(s));
 
     }
 
@@ -37,5 +39,11 @@ public class IsPalindrome {
         // }
         // }
         // return true;
+    }
+
+    public static boolean isPalindrome1(String s) {
+        String actual = s.replaceAll("[^A-Za-z0-9]", "").toLowerCase();
+        String rev = new StringBuffer(actual).reverse().toString();
+        return actual.equals(rev);
     }
 }

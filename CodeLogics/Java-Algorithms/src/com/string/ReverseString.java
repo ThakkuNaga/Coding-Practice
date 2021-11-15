@@ -4,37 +4,45 @@ import com.utils.Utils;
 
 public class ReverseString {
 
-    static char[] s = { 'h', 'e', 'l', 'l', 'o' };
-
     public static void main(String[] args) {
 
-        
-        reverseStr(s);
-        Utils.prtArr(s);
-
+        String str = "Hello ";
+        Utils.prt(reverseStr(str), reverseStr1(str));
+        Utils.prt(reverseStr2(str));
     }
 
-    public static void reverseStr(char[] s) {
+    public static String reverseStr(String str) {
+        char[] ch = str.toCharArray();
 
-        int left = 0, right = s.length - 1;
+        int left = 0, right = ch.length - 1;
         while (left < right) {
-            char tmp = s[left];
-            s[left++] = s[right];
-            s[right--] = tmp;
+            char tmp = ch[left];
+            ch[left] = ch[right];
+            ch[right] = tmp;
+            left++;
+            right--;
         }
+        return String.valueOf(ch);
+    }
 
-        // for (var i = 0; i < s.length / 2; i++) {
-        //     var tmp = s[i];
-        //     s[i] = s[s.length - i - 1];
-        //     s[s.length - i - 1] = tmp;
-        // }
-
-        StringBuilder sb = new StringBuilder(s.length);
-
-        for (int i = s.length - 1; i >= 0; i--) {
-            sb.append(s[i]);           
+    public static String reverseStr1(String str) {
+        char ch;
+        String nstr = "";
+        for (int i = 0; i < str.length(); i++) {
+            ch = str.charAt(i); // extracts each character
+            nstr = ch + nstr; // adds each character in front of the existing string
         }
-        s = sb.toString().toCharArray();         
-        //System.out.println(s);
+        return nstr;
+    }
+
+    public static String reverseStr2(String str) {
+        char[] ch = str.toCharArray();
+        StringBuilder sb = new StringBuilder(ch.length);
+
+        for (int i = ch.length - 1; i >= 0; i--) {
+            sb.append(ch[i]);
+        }
+        return sb.toString();
+
     }
 }

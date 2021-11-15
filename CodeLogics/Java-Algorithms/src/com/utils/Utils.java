@@ -68,6 +68,11 @@ public class Utils {
          System.out.println(obj);
      }
 
+     public static void prtLn(Object obj1,Object obj2) {
+        System.out.println(obj1);
+        System.out.println(obj2);
+    }
+
     public static void prt(Object obj) {
          System.out.print(obj+" ");
     }

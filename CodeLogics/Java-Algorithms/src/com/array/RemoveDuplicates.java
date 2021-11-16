@@ -19,15 +19,15 @@ public class RemoveDuplicates {
             return 0;
         }
 
-        int insIndex = 1;
+        int insIdx = 1;
         for (int j = 1; j < n; j++) {
             if (nums[j] != nums[j - 1]) {
-                nums[insIndex] = nums[j];
-                insIndex++;
+                nums[insIdx] = nums[j];
+                insIdx++;
             }
         }
 
-        return insIndex;
+        return insIdx;
     }
 
 }

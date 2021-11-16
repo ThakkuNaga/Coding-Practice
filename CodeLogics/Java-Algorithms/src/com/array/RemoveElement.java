@@ -10,8 +10,8 @@ class RemoveElement {
         Utils.prtArr(nums);
         System.out.println(removeElement(nums, val));
         Utils.prtArr(nums);
-        // System.out.println(removeElementFrmArr(nums, val));
-        // Utils.prtArr(nums);
+        System.out.println(removeElementFrmArr(nums, val));
+        Utils.prtArr(nums);
 
     }
 

@@ -10,7 +10,7 @@ public class TwoSum {
     public static void main(String[] args) {
         int[] nums = { 2, 7, 11, 15 };
         // 0 1 2 3
-        Utils.prtArr(twoSum(nums, 9));
+        Utils.prtArr(twoSum(nums, 18));
 
     }
 

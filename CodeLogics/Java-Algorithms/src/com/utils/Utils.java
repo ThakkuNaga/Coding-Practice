@@ -10,10 +10,10 @@ public class Utils {
         int[] nums = { 1, 2, 3, 4, 5, 6, 7 };
         int[][] mat = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
         String[] str = { "a", "b", "c", "d" };
-        // prtArr(nums);
-        // prtArr(str);
+        prtArr(nums);
+        prtArr(str);
         prt2D(mat);
-        // prtMatArr(mat);
+        prtMatArr(mat);
     }
 
     public static void prtArr(int[] nums) {

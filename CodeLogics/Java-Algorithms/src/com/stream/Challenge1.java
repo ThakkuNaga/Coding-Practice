@@ -3,8 +3,9 @@ package com.stream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
+
+import com.utils.Utils;
 
 public class Challenge1 {
     static class Employee {
@@ -34,6 +35,6 @@ public class Challenge1 {
 
      List<String> lt=  employees.stream().map(emp -> emp.name).collect(Collectors.toList());
      List<Employee> emp1=  employees.stream().filter((emp) -> emp.jobTitle == "developer").collect(Collectors.toList());
-     
+     Utils.prt(lt, emp1);
     }
 }

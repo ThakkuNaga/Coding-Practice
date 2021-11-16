@@ -1,4 +1,4 @@
-package com.array;
+package com.math;
 
 public class IsPalindrome {
 
@@ -26,8 +26,9 @@ public class IsPalindrome {
     private static boolean isPalindrome1(int x) {
         if (x < 0)
             return false;
-        int r, sum = 0, temp;
-        temp = x;
+        int r = 0;
+        int sum = 0;
+        int temp = x;
         while (x > 0) {
             r = x % 10; // getting remainder
             sum = (sum * 10) + r;

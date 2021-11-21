@@ -21,6 +21,12 @@ public class Utils {
         System.out.println();
     }
 
+    public static void prtArrSrt(int[] nums) {
+        Arrays.sort(nums);
+        System.out.println(Arrays.toString(nums));
+        System.out.println();
+    }
+
     public static void prtBin(int num) {
         if (num >= 8)
             System.out.print(String.format("%04d", Integer.parseInt(Integer.toBinaryString(num))));

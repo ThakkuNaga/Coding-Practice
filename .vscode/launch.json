@@ -6,6 +6,202 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DiagonalDifference",
+            "request": "launch",
+            "mainClass": "com.matrix.DiagonalDifference",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubArraySumEqualsK",
+            "request": "launch",
+            "mainClass": "com.array.SubArraySumEqualsK",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubArrayProductLessThanK",
+            "request": "launch",
+            "mainClass": "com.array.SubArrayProductLessThanK",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSubArrayProductLessThanK",
+            "request": "launch",
+            "mainClass": "com.array.MaxSubArrayProductLessThanK",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxProductThree",
+            "request": "launch",
+            "mainClass": "com.array.MaxProductThree",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSubArrayCount",
+            "request": "launch",
+            "mainClass": "com.array.MaxSubArrayCount",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSubArrayProduct",
+            "request": "launch",
+            "mainClass": "com.array.MaxSubArrayProduct",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubArrayCount",
+            "request": "launch",
+            "mainClass": "com.array.SubArrayCount",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch EncodeString",
+            "request": "launch",
+            "mainClass": "com.string.EncodeString",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindUnique",
+            "request": "launch",
+            "mainClass": "com.main.FindUnique",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSortRev",
+            "request": "launch",
+            "mainClass": "com.sort.BubbleSortRev",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort3",
+            "request": "launch",
+            "mainClass": "com.sort.BubbleSort3",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort2",
+            "request": "launch",
+            "mainClass": "com.sort.BubbleSort2",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort",
+            "request": "launch",
+            "mainClass": "com.sort.BubbleSort",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindFirstThree",
+            "request": "launch",
+            "mainClass": "com.math.FindFirstThree",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMinMax",
+            "request": "launch",
+            "mainClass": "com.math.FindMinMax",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMinMax",
+            "request": "launch",
+            "mainClass": "com.array.FindMinMax",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindLargestElement",
+            "request": "launch",
+            "mainClass": "com.array.FindLargestElement",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMedian",
+            "request": "launch",
+            "mainClass": "com.math.FindMedian",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch DateFormats",
+            "request": "launch",
+            "mainClass": "com.main.DateFormats",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinMaxSum",
+            "request": "launch",
+            "mainClass": "com.math.MinMaxSum",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindFraction",
+            "request": "launch",
+            "mainClass": "com.math.FindFraction",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern2",
+            "request": "launch",
+            "mainClass": "com.main.Pattern2",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern1",
+            "request": "launch",
+            "mainClass": "com.main.Pattern1",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BigIntegerEx",
+            "request": "launch",
+            "mainClass": "com.main.BigIntegerEx",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "com.main.BinarySearch",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch RearrangeStr",
+            "request": "launch",
+            "mainClass": "com.string.RearrangeStr",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Segregate0and1",
+            "request": "launch",
+            "mainClass": "com.array.Segregate0and1",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch IsPalindrome",
             "request": "launch",
             "mainClass": "com.math.IsPalindrome",

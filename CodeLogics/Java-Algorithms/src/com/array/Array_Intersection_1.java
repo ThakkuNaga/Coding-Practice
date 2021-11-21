@@ -28,7 +28,7 @@ public class Array_Intersection_1 {
     }
     int[] result = new int[intersect.size()];
     int i = 0;
-    for (Integer num : intersect) {
+    for (int num : intersect) {
         result[i++] = num;
     }
     return result;
@@ -42,10 +42,11 @@ public class Array_Intersection_1 {
 
     set1.retainAll(set2);
 
-    int [] output = new int[set1.size()];
-    int idx = 0;
-    for (int s : set1) output[idx++] = s;
-    return output;
+    int [] result = new int[set1.size()];
+    int i = 0;
+    for (int num : set1) 
+      result[i++] = num;
+    return result;
   }
 
 

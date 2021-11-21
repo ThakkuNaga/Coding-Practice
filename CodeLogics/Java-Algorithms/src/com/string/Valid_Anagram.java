@@ -10,10 +10,11 @@ public class Valid_Anagram {
     public static void main(String[] args) {
         String s = "anagram";
         s = "aacc";
-        s = "rat";
+        s = "Hello";
         String t = "nagaram";
         t = "ccac";
-        t = "car";
+        t = "hello";
+        Utils.prtLn(isAnagram(s, t));
         Utils.prtLn(isAnagram1(s, t));
         Utils.prtLn(isAnagram2(s, t));
     }
@@ -22,16 +23,18 @@ public class Valid_Anagram {
         if (s.length() != t.length()) {
             return false;
         }
-        int[] counter = new int[26];
+        int[] alphabet = new int[26];
         for (int i = 0; i < s.length(); i++) {
-            counter[s.charAt(i) - 'a']++;
+            alphabet[s.toLowerCase().charAt(i) - 'a']++;
         }
+        
         for (int i = 0; i < t.length(); i++) {
-            counter[t.charAt(i) - 'a']--;
-            if (counter[t.charAt(i) - 'a'] < 0) {
+            alphabet[t.toLowerCase().charAt(i) - 'a']--;
+            if (alphabet[t.toLowerCase().charAt(i) - 'a'] < 0) {
                 return false;
             }
         }
+
         return true;
     }
 

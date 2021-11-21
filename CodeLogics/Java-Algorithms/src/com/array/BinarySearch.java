@@ -16,17 +16,17 @@ public class BinarySearch {
 
     public static int searchInsert(int[] nums, int target) {
 
-        int pivot, left = 0, right = nums.length - 1;
+        int mid, left = 0, right = nums.length - 1;
 
         while (left <= right) {
-            pivot = left + (right - left) / 2;
-            if (target == nums[pivot]) {
-                return pivot;
+            mid = left + (right - left) / 2;
+            if (target == nums[mid]) {
+                return mid;
             }
-            if (target < nums[pivot]) {
-                right = pivot - 1;
+            if (target < nums[mid]) {
+                right = mid - 1;
             } else {
-                left = pivot + 1;
+                left = mid + 1;
             }
         }
 

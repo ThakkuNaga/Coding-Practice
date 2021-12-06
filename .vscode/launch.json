@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReverseString_SpcChar",
+            "request": "launch",
+            "mainClass": "com.string.ReverseString_SpcChar",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZigZagSequence",
+            "request": "launch",
+            "mainClass": "com.array.ZigZagSequence",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConsecutiveSubArrays",
+            "request": "launch",
+            "mainClass": "com.array.ConsecutiveSubArrays",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch RobotBoundedBox",
+            "request": "launch",
+            "mainClass": "com.math.RobotBoundedBox",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinSwapsBinArray",
+            "request": "launch",
+            "mainClass": "com.array.MinSwapsBinArray",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinMoves",
+            "request": "launch",
+            "mainClass": "com.array.MinMoves",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch GFG2",
+            "request": "launch",
+            "mainClass": "com.array.GFG2",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch GFG",
+            "request": "launch",
+            "mainClass": "com.array.GFG",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch GFG",
+            "request": "launch",
+            "mainClass": "com.matrix.GFG",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch DiagonalDifference",
             "request": "launch",
             "mainClass": "com.matrix.DiagonalDifference",

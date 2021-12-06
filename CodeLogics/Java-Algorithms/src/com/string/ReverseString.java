@@ -1,11 +1,8 @@
 package com.string;
 
 import com.utils.Utils;
-
 public class ReverseString {
-
     public static void main(String[] args) {
-
         String str = "Hello ";
         Utils.prt(reverseStr(str), reverseStr1(str));
         Utils.prt(reverseStr2(str));

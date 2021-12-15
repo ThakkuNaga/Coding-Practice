@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FindTriplets",
+            "request": "launch",
+            "mainClass": "com.math.FindTriplets",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch KthSmallestElement",
+            "request": "launch",
+            "mainClass": "com.math.KthSmallestElement",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch ReverseString_SpcChar",
             "request": "launch",
             "mainClass": "com.string.ReverseString_SpcChar",

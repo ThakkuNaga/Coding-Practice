@@ -2,27 +2,14 @@ package com.main;
 
 public class Main {
     public static void main(String... args) throws Exception {
+        int[] A = { 1, 2, 3, 4, 5, 6, 7 };
+        System.out.println(runMethod(A));
+    }
 
-        String str = "race ecar";
-        
-        char[] chrArr = str.toCharArray();
+    public static int runMethod(int[] A) {
 
-        int left = 0, right = 0;
-        right = chrArr.length - 1;
+        return -1;
 
-        while (left < right) {
-
-            char tmp = chrArr[left];
-
-            chrArr[left] = chrArr[right];
-            chrArr[right] = tmp;
-            left++;
-            right--;
-        }
-
-        System.out.println(new String(chrArr));
-
-        System.out.println(new String(chrArr).equalsIgnoreCase(str)?"Yes":"No");
     }
 
 }

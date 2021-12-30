@@ -6,6 +6,132 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MinDepth",
+            "request": "launch",
+            "mainClass": "com.tree.MinDepth",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MySqrtOf",
+            "request": "launch",
+            "mainClass": "com.math.MySqrtOf",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "com.algorithms.QuickSort",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SqrtOf",
+            "request": "launch",
+            "mainClass": "com.math.SqrtOf",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSelect",
+            "request": "launch",
+            "mainClass": "com.algorithms.QuickSelect",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindKthLargest",
+            "request": "launch",
+            "mainClass": "com.array.medium.FindKthLargest",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ElementsLessThanOrEqualtoTarget",
+            "request": "launch",
+            "mainClass": "com.array.ElementsLessThanOrEqualtoTarget",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearchCount",
+            "request": "launch",
+            "mainClass": "com.array.BinarySearchCount",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch TripletWithZeroSum_3Sum",
+            "request": "launch",
+            "mainClass": "com.array.medium.TripletWithZeroSum_3Sum",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMedianSortedArrays",
+            "request": "launch",
+            "mainClass": "com.array.medium.FindMedianSortedArrays",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch LevenshteinDistance",
+            "request": "launch",
+            "mainClass": "com.algos.LevenshteinDistance",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumOccursOddNoOfTimes",
+            "request": "launch",
+            "mainClass": "com.array.easy.NumOccursOddNoOfTimes",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindUnique",
+            "request": "launch",
+            "mainClass": "com.array.easy.FindUnique",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicates2",
+            "request": "launch",
+            "mainClass": "com.array.RemoveDuplicates2",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxConsecutiveOnesIII",
+            "request": "launch",
+            "mainClass": "com.array.MaxConsecutiveOnesIII",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMedianSortedArrays",
+            "request": "launch",
+            "mainClass": "com.array.FindMedianSortedArrays",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMaxConsecutiveOnes2",
+            "request": "launch",
+            "mainClass": "com.array.FindMaxConsecutiveOnes2",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ApplesOrchard",
+            "request": "launch",
+            "mainClass": "com.main.ApplesOrchard",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch FindTriplets",
             "request": "launch",
             "mainClass": "com.math.FindTriplets",

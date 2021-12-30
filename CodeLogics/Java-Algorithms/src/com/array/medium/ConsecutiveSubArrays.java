@@ -1,7 +1,4 @@
-package com.array;
-
-import java.util.HashMap;
-import java.util.Map;
+package com.array.medium;
 
 class ConsecutiveSubArrays {
 

@@ -1,36 +1,36 @@
 package com.array;
 
-import com.utils.Utils;
+import java.util.Arrays;
 
 public class BinarySearch {
     public static void main(String[] args) {
 
         int target = 6;
-        int[] nums = { 1, 3, 5, 6 };
+        int[] arr = { 1, 3, 5, 6 };
 
-        Utils.prtArr(nums);
-        System.out.println(searchInsert(nums, target));
-        //Utils.prtArr(nums);
-
+        System.out.println(Arrays.toString(arr));
+        System.out.println(searchInsert(arr, target));
     }
 
-    public static int searchInsert(int[] nums, int target) {
+    public static int searchInsert(int[] arr, int target) {
 
-        int mid, left = 0, right = nums.length - 1;
+        int left = 0;
+        int right = arr.length - 1;
+        int mid;
 
         while (left <= right) {
-            mid = left + (right - left) / 2;
-            if (target == nums[mid]) {
+
+            mid = left + ((right - left) / 2);
+
+            if (arr[mid] == target) {
                 return mid;
-            }
-            if (target < nums[mid]) {
-                right = mid - 1;
-            } else {
+            } else if (arr[mid] < target) {
                 left = mid + 1;
+            } else {
+                right = mid - 1;
             }
         }
-
-        return left;
+        return -1;
     }
 
 }

@@ -1,8 +1,12 @@
 package com.tree;
 
 import java.util.LinkedList;
+import java.util.Queue;
 
-class MaxDepth {
+class MaxDepth { 
+
+  // A binary tree's maximum depth is the number of nodes 
+  // along the longest path from the root node down to the farthest leaf node.
 
     public static void main(String[] args) {
 
@@ -13,7 +17,10 @@ class MaxDepth {
         BinaryTree.print2DTree(tree.root);
         //System.out.println(maxDepthRecursive(tree.root));
 
-        System.out.println(maxDepth(tree.root));
+        System.out.println("maxDepth  :"+maxDepth(tree.root));
+        System.out.println("maxDepth2 :"+maxDepth2(tree.root));
+        new MinDepth();
+        System.out.println("minDepth3 :"+MinDepth.minDepth3(tree.root));
     }
 
     public static int maxDepthRecursive(TreeNode root) {
@@ -48,4 +55,22 @@ class MaxDepth {
         }
         return depth;
       }
+
+      public static int maxDepth2(TreeNode root) {
+        if (root == null) return 0;
+        
+        int depth = 0;
+        Queue<TreeNode> nodes = new LinkedList<>();
+        nodes.offer(root);
+        while (!nodes.isEmpty()) {
+            int size = nodes.size();
+            depth++;
+            while (size-- > 0) {
+                TreeNode node = nodes.poll();
+                if (node.left != null) nodes.offer(node.left);
+                if (node.right != null) nodes.offer(node.right);
+            }
+        }
+        return depth;
+    }
 }

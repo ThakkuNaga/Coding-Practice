@@ -8,9 +8,12 @@ public class RemoveDuplicates {
 
         int[] nums = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
         int[] nums2 = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+        int[] nums3 = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
         removeDuplicates(nums);
         System.out.println();
         removeDuplicates2(nums2);
+        System.out.println();
+        removeDuplicates3(nums3);
     }
 
     // Approach #1 (2 pointers) [Accepted]

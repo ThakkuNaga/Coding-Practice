@@ -1,18 +1,17 @@
-package com.array;
+package com.search;
 
 import java.util.Arrays;
 
 public class BinarySearch {
     public static void main(String[] args) {
-
-        int target = 6;
-        int[] arr = { 1, 3, 5, 6 };
+        int target = 9;
+        int[] arr = { 1, 3, 5, 6, 7 ,8 };
 
         System.out.println(Arrays.toString(arr));
-        System.out.println(searchInsert(arr, target));
+        System.out.println(findKey(arr, target));
     }
 
-    public static int searchInsert(int[] arr, int target) {
+    public static int findKey(int[] arr, int key) {
 
         int left = 0;
         int right = arr.length - 1;
@@ -21,16 +20,17 @@ public class BinarySearch {
         while (left <= right) {
 
             mid = left + ((right - left) / 2);
+            int midVal = arr[mid];
 
-            if (arr[mid] == target) {
-                return mid;
-            } else if (arr[mid] < target) {
+            if (midVal < key) {
                 left = mid + 1;
-            } else {
+            } else if (midVal > key) {
                 right = mid - 1;
+            } else {
+                return mid; // key found
             }
         }
-        return -1;
+        return -(left + 1); // key not found
     }
 
 }

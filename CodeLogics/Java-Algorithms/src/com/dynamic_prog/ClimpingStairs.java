@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class ClimpingStairs {
     public static void main(String[] args) {
         int n = 4;
-        System.out.println(climbStairs2(n));
+        System.out.println(climbStairs(n));
     }
 
     // Dynamic Programming Approach

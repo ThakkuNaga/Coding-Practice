@@ -21,6 +21,30 @@ public class Utils {
         System.out.println();
     }
 
+    public static void prtArrIdx(int[] nums) {
+        System.out.println(Arrays.toString(nums));
+        System.out.print("[");
+        for (int i = 0; i < nums.length; i++) {
+            System.out.print(i);
+            int val = nums[i];
+            int length = (int)(Math.log10(val)+1);
+            if(i != nums.length-1){
+                if(length>1)
+                    System.out.print(",  ");
+                else
+                    System.out.print(", ");      
+            }
+                    
+            if(i == nums.length-1)
+                if(length>1)
+                    System.out.print(" ");
+                   
+
+        }
+        System.out.print("]");
+        System.out.println();
+    }
+
     public static void prtArrSrt(int[] nums) {
         Arrays.sort(nums);
         System.out.println(Arrays.toString(nums));

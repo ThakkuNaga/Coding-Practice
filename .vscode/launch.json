@@ -6,6 +6,167 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AddTwoNumbers",
+            "request": "launch",
+            "mainClass": "com.linkedlist.AddTwoNumbers",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch StockPrice",
+            "request": "launch",
+            "mainClass": "com.misc.StockPrice",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch StockMaster",
+            "request": "launch",
+            "mainClass": "com.misc.StockMaster",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSortedArrayDiffSize",
+            "request": "launch",
+            "mainClass": "com.array.MergeSortedArrayDiffSize",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BooleanMatrix",
+            "request": "launch",
+            "mainClass": "com.matrix.BooleanMatrix",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConsecutiveArray",
+            "request": "launch",
+            "mainClass": "com.array.easy.ConsecutiveArray",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "com.main.QuickSort",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "com.misc.Main",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "com.sort.QuickSort",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "com.sort.MergeSort",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSort",
+            "request": "launch",
+            "mainClass": "com.sort.InsertionSort",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClimpingStairs",
+            "request": "launch",
+            "mainClass": "com.dynamic_prog.ClimpingStairs",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Linked_List_Cycle",
+            "request": "launch",
+            "mainClass": "com.linkedlist.Linked_List_Cycle",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch PivotedBinarySearch",
+            "request": "launch",
+            "mainClass": "com.sort.PivotedBinarySearch",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "com.math.Factorial",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationsString",
+            "request": "launch",
+            "mainClass": "com.string.PermutationsString",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinProductSubset",
+            "request": "launch",
+            "mainClass": "com.math.MinProductSubset",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxProductSubset",
+            "request": "launch",
+            "mainClass": "com.math.MaxProductSubset",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatchingStrings",
+            "request": "launch",
+            "mainClass": "com.string.MatchingStrings",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch HourGlassMax",
+            "request": "launch",
+            "mainClass": "com.matrix.HourGlassMax",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrieContacts",
+            "request": "launch",
+            "mainClass": "com.trie.TrieContacts",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeTraversals",
+            "request": "launch",
+            "mainClass": "com.tree.TreeTraversals",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BT_LevelOrder_Traversal",
+            "request": "launch",
+            "mainClass": "com.tree.BT_LevelOrder_Traversal",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch MinDepth",
             "request": "launch",
             "mainClass": "com.tree.MinDepth",

@@ -8,6 +8,7 @@ public class ReverseLinkedList {
         Node head = new SinglyLinkedList().CreateLinkedList(new int[] { 1, 2, 3, 4, 5, 6, 7 });
         Utils.prtLst(head);
         Utils.prtLst(reverseList(head));
+        //reversePrint(head);
         //Utils.prtLst(reverseList2(head));
     }
     
@@ -33,6 +34,21 @@ public class ReverseLinkedList {
         head.next.next = head;
         head.next = null;
         return p;
+    }
+
+    public static void reversePrint(Node head) {
+        
+        if(head == null) return;
+        reversePrint(head.next);
+        System.out.print(head.val+" ");
+
+        // OR
+
+        if (head != null) {
+        reversePrint(head.next);
+        System.out.print(head.val+" "); 
+        }
+
     }
 
 }

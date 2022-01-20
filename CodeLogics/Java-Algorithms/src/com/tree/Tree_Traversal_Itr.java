@@ -51,19 +51,18 @@ public class Tree_Traversal_Itr {
     }
 
     public static List<Integer> postOrderTraversal(TreeNode root) {
-        List<Integer> ans = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
         while (root != null || !stack.isEmpty()) {
             while (root != null) {
-                stack.add(root);
-                ans.add(0, root.val);
+                stack.push(root);
+                list.add(0, root.val);
                 root = root.right;
             }
             root = stack.pop();
             root = root.left;
         }
-
-        return ans;
+        return list;
     }
 
 }

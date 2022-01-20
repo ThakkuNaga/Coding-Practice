@@ -5,14 +5,13 @@ import java.util.Arrays;
 import com.utils.Utils;
 
 public class MergeSortedArray {
-    public static void main(String[] args) { 
+    public static void main(String[] args) {
 
         /*
-        Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
-        Output: [1,2,2,3,5,6]
-        Explanation: The arrays we are merging are [1,2,3] and [2,5,6].
-        The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
-        */
+         * Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
+         * Output: [1,2,2,3,5,6]
+         *  
+         */
 
         int[] nums1 = { 1, 2, 3, 0, 0, 0 };
         int m = 3;
@@ -20,15 +19,15 @@ public class MergeSortedArray {
         int n = 3;
 
         mergeSortedArray(nums1, m, nums2, n);
-        mergeSortedArray2(nums1, m, nums2, n);
-        mergeSortedArray_Naive(nums1, m, nums2, n);
+        // mergeSortedArray2(nums1, m, nums2, n);
+        // mergeSortedArray_Naive(nums1, m, nums2, n);
 
         Utils.prtArr(nums1);
 
     }
 
     // Three Pointers (Start From the End)
-    public static void mergeSortedArray(int[] nums1, int m, int[] nums2, int n) {
+    public static void mergeSortedArray(int[] arr1, int m, int[] arr2, int n) {
         // Set p1 and p2 to point to the end of their respective arrays.
         int p1 = m - 1;
         int p2 = n - 1;
@@ -39,11 +38,11 @@ public class MergeSortedArray {
             if (p2 < 0) {
                 break;
             }
-            if (p1 >= 0 && nums1[p1] > nums2[p2]) {
-                nums1[i] = nums1[p1];
+            if (p1 >= 0 && arr1[p1] > arr2[p2]) {
+                arr1[i] = arr1[p1];
                 p1--;
             } else {
-                nums1[i] = nums2[p2];
+                arr1[i] = arr2[p2];
                 p2--;
             }
         }

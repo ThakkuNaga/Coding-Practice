@@ -6,21 +6,19 @@ public class Balance_Parentheses {
 
     public static void main(String[] args) {
 
-        String s0 = "((lee(t(c)o)de)";
-        // String s = "lee(t(c)o)de)";
-        // String s1 = "a)b(c)d";
-        // String s2 = "))((";
-        // String s3 = "(a(b(c)d)";
-        String s = s0;
+        String s = "((lee(t(c)o)de)";
+               s = "lee(t(c)o)de)";
+               s = "a)b(c)d";
+               s = "))(()";
+               s = "(a(b(c)d)";
         System.out.println(s);
-        System.out.println(balanceParentheses(s));
-        System.out.println(balanceParentheses1(s));
-        System.out.println(balanceParentheses2(s));
+        System.out.println("Balanced:"+balanceParentheses(s));
+        //System.out.println(balanceParentheses1(s));
+        //System.out.println(balanceParentheses2(s));
 
     }
 
     public static String balanceParentheses(String s) { // 33ms
-        System.out.println(s);
         StringBuilder sb = new StringBuilder(s);
         Stack<Integer> st = new Stack<Integer>();
         for (int i = 0; i < sb.length(); ++i) {

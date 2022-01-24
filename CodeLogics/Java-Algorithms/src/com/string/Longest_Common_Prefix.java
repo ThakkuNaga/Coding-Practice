@@ -5,8 +5,8 @@ public class Longest_Common_Prefix {
     public static void main(String[] args) {
         String[] strs = { "flower", "flow", "flight" };
         String[] strs1 = { "dog", "racecar", "car" };
-        System.out.println(longestCommonPrefix(strs));
-        System.out.println(longestCommonPrefix2(strs1));
+        System.out.println(longestCommonPrefix(strs1));
+        //System.out.println(longestCommonPrefix2(strs1));
     }
 
     // Approach 1: Horizontal scanning
@@ -15,11 +15,11 @@ public class Longest_Common_Prefix {
             return "";
         String prefix = strs[0];
         for (int i = 1; i < strs.length; i++){
-        System.out.println("strs["+i+"] == "+strs[i]);
-        System.out.println("strs["+i+"].indexOf("+prefix+") "+strs[i].indexOf(prefix));
+        //System.out.println("strs["+i+"] == "+strs[i]);
+        //System.out.println("strs["+i+"].indexOf("+prefix+") "+strs[i].indexOf(prefix));
             while (strs[i].indexOf(prefix) != 0) {
-                System.out.println("strs["+i+"].indexOf("+prefix+") "+strs[i].indexOf(prefix));
                 prefix = prefix.substring(0, prefix.length() - 1);
+                System.out.println(prefix);
                 if (prefix.isEmpty())
                     return "";
             }

@@ -53,26 +53,4 @@ class AddTwoNumbers {
         return head.next;
     }
 
-    public static Node addTwoNumbers2(Node l1, Node l2) {
-        Node head = l1 != null ? l1 : l2;
-        Node tail = head;
-        
-        int sum = 0;
-        int carry = 0;
-        
-        while (l1 != null || l2 != null) {
-            sum = carry + (l1 != null ? l1.val : 0) + (l2 != null ? l2.val : 0);
-            tail.val = sum % 10;
-            carry = sum / 10;
-            
-            l1 = l1 != null ? l1.next : l1;
-            l2 = l2 != null ? l2.next : l2;
-            
-            tail.next = l1 != null ? l1 : l2 != null ? l2 : carry != 0 ? new Node(carry) : null;
-            tail = tail.next;
-        }
-        
-        return head;
-    }
-
 }

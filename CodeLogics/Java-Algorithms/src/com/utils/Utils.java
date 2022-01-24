@@ -21,6 +21,15 @@ public class Utils {
         System.out.println();
     }
 
+    public static void prtChArr(String s) {
+        char ch[] = s.toCharArray();
+        System.out.println(Arrays.toString(ch));
+        int j =0;
+        for (char c : ch)
+            System.out.print(" "+ ++j +" ");
+            System.out.println();
+    }
+
     public static void prtArrIdx(int[] nums) {
         System.out.println(Arrays.toString(nums));
         System.out.print("[");

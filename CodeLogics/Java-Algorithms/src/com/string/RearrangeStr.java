@@ -8,7 +8,7 @@ public class RearrangeStr {
         Utils.prt(reorganizeString("anvhdreos"));
     }
 
-    public static String reorganizeString(final String S) {
+    public static String reorganizeString(String S) {
         StringBuilder sb = new StringBuilder();
         int[] hash = new int[26];
         for (int i = 0; i < S.length(); i++) {

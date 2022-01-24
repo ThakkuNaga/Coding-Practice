@@ -5,11 +5,13 @@ import com.utils.Utils;
 
 public class SingleNumber {
 
+    // 136. Single Number
+    // Every element appears twice except for one. Find that single one.
+
     public static void main(String[] args) {
-        int[] nums = { 2, 2, 3, 2 };
-        int[] nums2 = { 1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, 5, 6 };
-        Utils.prtLn(findUnique(nums2));
-        Utils.prtLn(singleNumber_HashMap(nums));
+        int[] nums = { 4, 1, 2, 1, 2 }; // 2,2,1
+        Utils.prtLn(findUnique(nums));
+        Utils.prtLn(singleNumber(nums));
     }
 
     public static int findUnique(int[] nums) {
@@ -23,17 +25,6 @@ public class SingleNumber {
             System.out.println(" = " + ans + "(" + Utils.getBin(ans) + ")");
         }
         return ans;
-    }
-
-    public static int singleNumber_HashMap(int[] nums) {
-        HashMap<Integer, Integer> hashmap = new HashMap<>();
-        for (int num : nums)
-            hashmap.put(num, hashmap.getOrDefault(num, 0) + 1);
-
-        for (int k : hashmap.keySet())
-            if (hashmap.get(k) == 1)
-                return k;
-        return -1;
     }
 
     public static int singleNumber(int[] nums) {

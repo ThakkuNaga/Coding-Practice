@@ -2,8 +2,10 @@ package com.misc;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.Set;
+import java.util.TreeMap;
 
 class StockPrice {
 
@@ -11,6 +13,8 @@ class StockPrice {
     static int cur = 0;
     static int min = 0;
     static int max = 0;
+    TreeMap<Integer, Integer> record = new TreeMap<>();
+    TreeMap<Integer, Set<Integer>> vals = new TreeMap<>();
 
     public StockPrice() {
 
@@ -18,89 +22,32 @@ class StockPrice {
         cur = 0;
         min = 0;
         max = 0;
+        record = new TreeMap<>();
+        vals = new TreeMap<>();
+
     }
 
     public static void main(String[] args) {
         StockPrice stockPrice = new StockPrice();
-        // stockPrice.update(1, 10);
-        // stockPrice.update(2, 5);
-        // stockPrice.current();
-        // stockPrice.maximum();
-        // stockPrice.update(1, 3);
-        // stockPrice.maximum();
-        // stockPrice.update(4, 2);
-        // stockPrice.minimum();
-
-        // System.out.println(map);
-        // System.out.println(map.size());
-        // stockPrice.current();
-        
 
         ArrayList<String> qLst = new ArrayList<>(
                 Arrays.asList(
+                        "update", "update", "current", "maximum", "update", "maximum", "update", "minimum"
 
-                "update", "maximum", "current", "minimum", "maximum", "maximum", "maximum", "minimum",
-                "minimum", "maximum", "update", "maximum", "minimum", "update", "maximum", "minimum", 
-                "current", "maximum", "update", "minimum", "maximum", "update",  "maximum", "maximum",
-                "current", "update", "current", "minimum", "update", "update", "minimum",
-                "minimum", "update", "current", "update", "maximum", "update", "minimum"
-
-                // "update","update","current","maximum","update","maximum","update","minimum"
-                
                 ));
 
-        //System.out.println("qLst size:" + qLst.size());
+        System.out.println("qLst size:" + qLst.size());
         ArrayList<int[]> vLst = new ArrayList<>();
-        // vLst.add(new int[] { 1, 10 });
-        // vLst.add(new int[] { 2, 5 });
-        // vLst.add(new int[] {});
-        // vLst.add(new int[] {});
-        // vLst.add(new int[] { 1, 3 });
-        // vLst.add(new int[] {});
-        // vLst.add(new int[] { 4, 2 });
-        // vLst.add(new int[] {});
-
-        
-        vLst.add(new int[] { 38, 2308 });
+        vLst.add(new int[] { 1, 10 });
+        vLst.add(new int[] { 2, 5 });
         vLst.add(new int[] {});
         vLst.add(new int[] {});
+        vLst.add(new int[] { 1, 3 });
         vLst.add(new int[] {});
-        vLst.add(new int[] {});
-        vLst.add(new int[] {});
-        vLst.add(new int[] {});
-        vLst.add(new int[] {});
-        vLst.add(new int[] {});
-        vLst.add(new int[] {});
-        vLst.add(new int[] { 47, 7876 });
-        vLst.add(new int[] {});
-        vLst.add(new int[] {});
-        vLst.add(new int[] { 58, 1866 });
-        vLst.add(new int[] {});
-        vLst.add(new int[] {});
-        vLst.add(new int[] {});
-        vLst.add(new int[] {});
-        vLst.add(new int[] { 43, 121 });
-        vLst.add(new int[] {});
-        vLst.add(new int[] {});
-        vLst.add(new int[] { 40, 5339 });
-        vLst.add(new int[] {});
-        vLst.add(new int[] {});
-        vLst.add(new int[] {});
-        vLst.add(new int[] { 32, 5339 });
-        vLst.add(new int[] {});
-        vLst.add(new int[] {});
-        vLst.add(new int[] { 43, 6414 });
-        vLst.add(new int[] { 49, 9369 });
-        vLst.add(new int[] {});
-        vLst.add(new int[] {});
-        vLst.add(new int[] { 36, 3192 });
-        vLst.add(new int[] {});
-        vLst.add(new int[] { 48, 1006 });
-        vLst.add(new int[] {});
-        vLst.add(new int[] { 53, 8013 });
+        vLst.add(new int[] { 4, 2 });
         vLst.add(new int[] {});
 
-        //System.out.println("vLst size:" + vLst.size());
+        System.out.println("vLst size:" + vLst.size());
 
         for (int i = 0; i < qLst.size(); i++) {
 
@@ -118,28 +65,44 @@ class StockPrice {
             }
         }
 
-       //System.out.println(map);
+        System.out.println(map);
+
+        stockPrice.update(1, 10);
+        stockPrice.update(2, 5);
+        stockPrice.current();
+        stockPrice.maximum();
+        stockPrice.update(1, 3);
+        stockPrice.maximum();
+        stockPrice.update(4, 2);
+        stockPrice.minimum();
+
+        stockPrice.current();
 
     }
 
     public void update(int timestamp, int price) {
-        map.put(timestamp, price);
+        if (record.containsKey(timestamp)) {
+            int prevPrice = record.get(timestamp);
+            Set<Integer> book = vals.get(prevPrice);
+            book.remove(timestamp);
+            if (book.isEmpty()) {
+                vals.remove(prevPrice);
+            }
+        }
+        vals.putIfAbsent(price, new HashSet<>());
+        vals.get(price).add(timestamp);
+        record.put(timestamp, price);
     }
 
-    public int current() {        
-        int key = (Collections.max(map.keySet()));        
-        return map.get(key);
+    public int current() {
+        return record.lastEntry().getValue();
     }
 
-    public int maximum() {        
-        max = (Collections.max(map.values()));
-        System.out.println("max:" + max);
-        return max;
+    public int maximum() {
+        return vals.lastKey();
     }
 
     public int minimum() {
-        min = (Collections.min(map.values())); 
-        System.out.println("min:" + min);
-        return min;
+        return vals.firstKey();
     }
 }

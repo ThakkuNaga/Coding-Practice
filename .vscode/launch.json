@@ -6,6 +6,223 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReverseInParentheseses",
+            "request": "launch",
+            "mainClass": "com.string.ReverseInParentheseses",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntergerSum2",
+            "request": "launch",
+            "mainClass": "com.array.easy.IntergerSum2",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntergerSum2",
+            "request": "launch",
+            "mainClass": "com.math.IntergerSum2",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch CommonCharsCount",
+            "request": "launch",
+            "mainClass": "com.string.CommonCharsCount",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixElementSum",
+            "request": "launch",
+            "mainClass": "com.matrix.MatrixElementSum",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestStrings",
+            "request": "launch",
+            "mainClass": "com.string.LongestStrings",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlmostIncreasingSequence",
+            "request": "launch",
+            "mainClass": "com.array.medium.AlmostIncreasingSequence",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlmostIncreasingSequence",
+            "request": "launch",
+            "mainClass": "com.array.easy.AlmostIncreasingSequence",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MakeConcecutive",
+            "request": "launch",
+            "mainClass": "com.array.MakeConcecutive",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntergerSum",
+            "request": "launch",
+            "mainClass": "com.math.IntergerSum",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution3",
+            "request": "launch",
+            "mainClass": "com.main.Solution3",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution2",
+            "request": "launch",
+            "mainClass": "com.main.Solution2",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindAvg",
+            "request": "launch",
+            "mainClass": "com.array.easy.FindAvg",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch CompareTwoList",
+            "request": "launch",
+            "mainClass": "com.linkedlist.CompareTwoList",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringPermutation",
+            "request": "launch",
+            "mainClass": "com.string.StringPermutation",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintSubStrings",
+            "request": "launch",
+            "mainClass": "com.string.PrintSubStrings",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountSubstrings",
+            "request": "launch",
+            "mainClass": "com.string.medium.CountSubstrings",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch NextGreaterElement",
+            "request": "launch",
+            "mainClass": "com.array.medium.NextGreaterElement",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindTheDifference",
+            "request": "launch",
+            "mainClass": "com.string.easy.FindTheDifference",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch LengthOfLongestSubstring",
+            "request": "launch",
+            "mainClass": "com.string.medium.LengthOfLongestSubstring",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch GcdOfStrings",
+            "request": "launch",
+            "mainClass": "com.string.easy.GcdOfStrings",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch RearrangeWordByLength",
+            "request": "launch",
+            "mainClass": "com.string.medium.RearrangeWordByLength",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySubString",
+            "request": "launch",
+            "mainClass": "com.string.easy.BinarySubString",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SmallestAndLargestSubstring",
+            "request": "launch",
+            "mainClass": "com.string.SmallestAndLargestSubstring",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestSubString",
+            "request": "launch",
+            "mainClass": "com.string.medium.LongestSubString",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch AreNumbersAscending",
+            "request": "launch",
+            "mainClass": "com.string.easy.AreNumbersAscending",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BalancedStringSplit",
+            "request": "launch",
+            "mainClass": "com.string.easy.BalancedStringSplit",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortString",
+            "request": "launch",
+            "mainClass": "com.string.easy.SortString",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumTilePossibilities",
+            "request": "launch",
+            "mainClass": "com.string.easy.NumTilePossibilities",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxWordsType",
+            "request": "launch",
+            "mainClass": "com.string.easy.MaxWordsType",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch StockPrice2",
+            "request": "launch",
+            "mainClass": "com.misc.StockPrice2",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch AddTwoNumbers",
             "request": "launch",
             "mainClass": "com.linkedlist.AddTwoNumbers",

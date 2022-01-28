@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FindCentury",
+            "request": "launch",
+            "mainClass": "com.math.FindCentury",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeRearranging",
+            "request": "launch",
+            "mainClass": "com.string.PalindromeRearranging",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckPalindrome",
+            "request": "launch",
+            "mainClass": "com.string.CheckPalindrome",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsArraySimilar",
+            "request": "launch",
+            "mainClass": "com.array.easy.IsArraySimilar",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddBorder",
+            "request": "launch",
+            "mainClass": "com.matrix.AddBorder",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlternatingSum",
+            "request": "launch",
+            "mainClass": "com.string.easy.AlternatingSum",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch ReverseInParentheseses",
             "request": "launch",
             "mainClass": "com.string.ReverseInParentheseses",

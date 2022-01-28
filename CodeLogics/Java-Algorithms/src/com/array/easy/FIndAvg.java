@@ -1,6 +1,8 @@
 package com.array.easy;
 
 import java.util.Arrays;
+import java.util.Set;
+import java.util.TreeSet;
 
 /*
  * To execute Java, please define "static void main" on a class
@@ -19,9 +21,31 @@ class FindAvg {
   public static void main(String[] args) {
     int[] arr = { 8000, 9000, 2000, 3000, 6000, 1000 };
     findAvg(arr);
+    findAvg2(arr);
   }
 
-  public static void findAvg(int[] a) {
+  private static int findAvg(int[] arr) {
+    TreeSet<Integer> ts = new TreeSet<>();
+
+    for (int num : arr) {
+      ts.add(num);
+    }
+    System.out.println(ts);
+    ts.pollFirst();
+    ts.pollLast();
+    System.out.println(ts);
+
+    int avg = 0;
+    for (int num : arr) {
+      if (ts.contains(num))
+        avg += num;
+    }
+    System.out.println("Avg:" + avg / ts.size());
+
+    return (avg / ts.size());
+  }
+
+  public static void findAvg2(int[] a) {
     int[] a2 = new int[a.length - 2];
 
     int min = a[0];
@@ -49,18 +73,18 @@ class FindAvg {
     System.out.println("len: " + (a.length - 2) + " sum:" + (sum - (min + max)));
     System.out.println((sum - (min + max)) / (a.length - 2));
 
-    int len = a2.length;
-    int mid = len / 2;
-    System.out.println("Mid index:" + mid);
+    // int len = a2.length;
+    // int mid = len / 2;
+    // System.out.println("Mid index:" + mid);
 
-    double median;
-    if (len % 2 == 0)
-      median = ((double) a2[mid] + (double) a2[mid - 1]) / 2;
-    else
-      median = (double) a2[mid];
+    // double median;
+    // if (len % 2 == 0)
+    // median = ((double) a2[mid] + (double) a2[mid - 1]) / 2;
+    // else
+    // median = (double) a2[mid];
 
-    System.out.println(a2[mid] + " " + a2[mid - 1]+" = "+median);
-    
+    // System.out.println(a2[mid] + " " + a2[mid - 1] + " = " + median);
+
   }
 
 }

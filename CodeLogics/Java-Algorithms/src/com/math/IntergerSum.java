@@ -14,7 +14,7 @@ public class IntergerSum {
             pop = n % 10;
             n = n / 10;
             sum += pop;
-            System.out.print(pop + " " + n + " " + sum + "\n");
+            System.out.print(pop + " " + n + " " + sum + "\n"); 
         }
         return sum;
     }

@@ -1,6 +1,6 @@
-package com.main;
+package com.string.easy;
 
-public class Solution2 {
+public class CheckPalindrome {
 
     public static void main(String... args) throws Exception {
         String s = "aabaa";

@@ -15,8 +15,27 @@ public class Linked_List_Cycle {
     }
 
     public static boolean hasCycle(Node head) {
-        if (head == null) return false;
-        
+        if (head == null)
+            return false;
+
+        Node fast = head.next;
+        Node slow = head;
+
+        while (fast != null && fast.next != null && slow != null) {
+
+            if (fast == slow) {
+                return true;
+            }
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        return false;
+    }
+
+    public static boolean hasCycle2(Node head) {
+        if (head == null)
+            return false;
+
         Node slow = head;
         Node fast = head.next;
         while (slow != fast) {
@@ -29,8 +48,8 @@ public class Linked_List_Cycle {
         return true;
     }
 
-    public static boolean hasCycle2(Node head) { 
-        Set<Node> nodesSeen = new HashSet<>(); 
+    public static boolean hasCycle3(Node head) {
+        Set<Node> nodesSeen = new HashSet<>();
         while (head != null) {
             if (nodesSeen.contains(head)) {
                 return true;

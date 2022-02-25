@@ -116,6 +116,11 @@ public class Utils {
          System.out.print(obj+" ");
     }
 
+    public void pt(Object obj) {
+        System.out.print(obj+" ");
+   }
+
+
     public static void prt(Object obj1,Object obj2) {
         System.out.print(obj1+" ");
         System.out.print(obj2+" ");

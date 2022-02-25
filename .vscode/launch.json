@@ -6,6 +6,188 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DivisorGame",
+            "request": "launch",
+            "mainClass": "com.interviews.DivisorGame",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeightChecker",
+            "request": "launch",
+            "mainClass": "com.interviews.HeightChecker",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsLongPressedName",
+            "request": "launch",
+            "mainClass": "com.interviews.IsLongPressedName",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculator",
+            "request": "launch",
+            "mainClass": "com.math.Calculator",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsPrimeNumber",
+            "request": "launch",
+            "mainClass": "com.math.IsPrimeNumber",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeInFibonacci",
+            "request": "launch",
+            "mainClass": "com.math.PrimeInFibonacci",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibonacciSeries",
+            "request": "launch",
+            "mainClass": "com.math.FibonacciSeries",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeNumbers",
+            "request": "launch",
+            "mainClass": "com.math.PrimeNumbers",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibonacciSeries",
+            "request": "launch",
+            "mainClass": "com.algorithms.easy.FibonacciSeries",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Streams",
+            "request": "launch",
+            "mainClass": "com.java8.Streams",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Binary_Tree_Solution",
+            "request": "launch",
+            "mainClass": "com.main.Binary_Tree_Solution",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FoodPicker",
+            "request": "launch",
+            "mainClass": "com.interviews.FoodPicker",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FoodPicker",
+            "request": "launch",
+            "mainClass": "FoodPicker",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main2",
+            "request": "launch",
+            "mainClass": "com.main.Main2",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestClass",
+            "request": "launch",
+            "mainClass": "com.main.TestClass",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenericsTester",
+            "request": "launch",
+            "mainClass": "com.interviews.java.generics.GenericsTester",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenericsTester",
+            "request": "launch",
+            "mainClass": "com.interviews.java.GenericsTester",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunLengthEncoding",
+            "request": "launch",
+            "mainClass": "com.interviews.RunLengthEncoding",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch LengthOfArrayCycle",
+            "request": "launch",
+            "mainClass": "com.interviews.LengthOfArrayCycle",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayCycle",
+            "request": "launch",
+            "mainClass": "com.array.easy.ArrayCycle",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArraySort",
+            "request": "launch",
+            "mainClass": "com.array.medium.ReverseArraySort",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeTwoSortedArrays",
+            "request": "launch",
+            "mainClass": "com.array.medium.MergeTwoSortedArrays",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MoveZerosEnd",
+            "request": "launch",
+            "mainClass": "com.array.MoveZerosEnd",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddEvenSegregation",
+            "request": "launch",
+            "mainClass": "com.array.OddEvenSegregation",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch InversionPairs",
+            "request": "launch",
+            "mainClass": "com.array.InversionPairs",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MoveNegativeEnd",
+            "request": "launch",
+            "mainClass": "com.array.MoveNegativeEnd",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch FindCentury",
             "request": "launch",
             "mainClass": "com.math.FindCentury",

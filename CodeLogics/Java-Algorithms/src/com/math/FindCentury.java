@@ -4,12 +4,14 @@ public class FindCentury {
 
     public static void main(String... args) throws Exception {
 
-        //System.out.println(findCentury(245));
-        System.out.println(centuryFromYear(0));
+        System.out.println(findCentury(245));
+        System.out.println(centuryFromYear(1));
 
     }
 
     static int centuryFromYear(int year) {
+        System.out.println(year % 100);
+        System.out.println(year / 100);
         if (year % 100 != 0)
             return year / 100 + 1;
         return year / 100;

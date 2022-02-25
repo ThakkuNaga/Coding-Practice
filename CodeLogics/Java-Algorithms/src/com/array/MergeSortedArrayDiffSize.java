@@ -13,7 +13,10 @@ public class MergeSortedArrayDiffSize {
     }
 
     public static void mergeSortedArray(int[] arr1, int s1, int[] arr2, int s2) {
-
+        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr2));
+        System.out.println();
+        
         int[] res = new int[s1 + s2];
 
         int i = 0, j = 0, k = 0;

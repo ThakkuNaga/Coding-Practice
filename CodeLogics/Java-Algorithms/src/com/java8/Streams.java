@@ -1,9 +1,10 @@
-package com.stream;
+package com.java8;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class Streams {
     public static void main(String... args) {
@@ -26,7 +27,7 @@ public class Streams {
         int even = numbers.stream().filter(x -> x % 2 == 0).reduce(0, (ans, i) -> ans + i);
         System.out.println(even);
 
-
+        IntStream.range(0, 10).forEach(System.out::print);
     }
 
 }

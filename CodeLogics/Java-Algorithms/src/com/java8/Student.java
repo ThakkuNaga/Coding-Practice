@@ -1,5 +1,5 @@
 
-package com.stream;
+package com.java8;
 /**
  * Java 8 Stream API example
  * @author www.codejava.net

@@ -1,4 +1,4 @@
-package com.string.easy;
+package com.interviews;
 
 import java.util.TreeMap;
 import java.util.TreeSet;

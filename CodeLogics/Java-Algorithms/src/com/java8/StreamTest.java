@@ -1,5 +1,5 @@
 
-package com.stream;
+package com.java8;
 
 import java.util.ArrayList;
 import java.util.List;

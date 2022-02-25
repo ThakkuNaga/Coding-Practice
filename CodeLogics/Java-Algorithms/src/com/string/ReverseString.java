@@ -4,7 +4,7 @@ import com.utils.Utils;
 
 public class ReverseString {
     public static void main(String[] args) {
-        String str = "bar ";
+        String str = "bar";
         Utils.prt(reverseStr1(str), reverseStr2(str));
         Utils.prt(reverseStr3(str));
     }

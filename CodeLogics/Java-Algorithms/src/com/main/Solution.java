@@ -5,7 +5,7 @@ import com.utils.Utils;
 public class Solution {
 
     public static void main(String[] args) {
-        Utils.prt(getSmallestAndLargest("WelcomeToJava", 3));
+        Utils.prt(getSmallestAndLargest("WelcomeToJava", 5));
     }
 
     public static String getSmallestAndLargest(String s, int k) {

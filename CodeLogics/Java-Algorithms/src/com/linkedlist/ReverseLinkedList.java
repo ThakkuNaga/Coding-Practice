@@ -5,7 +5,7 @@ import com.utils.Utils;
 public class ReverseLinkedList {
     public static void main(String[] args) {
 
-        Node head = new SinglyLinkedList().CreateLinkedList(new int[] { 1, 2, 3, 4, 5, 6, 7 });
+        Node head = new SinglyLinkedList().CreateLinkedList(new int[] { 1, 2, 3, 4 });
         Utils.prtLst(head);
         Utils.prtLst(reverseList(head));
         //reversePrint(head);

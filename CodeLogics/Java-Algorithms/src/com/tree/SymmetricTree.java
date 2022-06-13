@@ -26,14 +26,14 @@ public class SymmetricTree {
         return isMirror(root, root);
     }
 
-    public static boolean isMirror(TreeNode left, TreeNode right) {
-        if (left == null && right == null)
+    public static boolean isMirror(TreeNode T1, TreeNode T2) {
+        if (T1 == null && T2 == null)
             return true;
-        if (left == null || right == null)
+        if (T1 == null || T2 == null)
             return false;
-        return (left.val == right.val) &&
-                isMirror(left.left, right.right) &&
-                isMirror(left.right, right.left);
+        return (T1.val == T2.val) &&
+                isMirror(T1.left, T2.right) &&
+                isMirror(T1.right, T2.left);
     }
 
     public static boolean isSymmetricItr(TreeNode root) {

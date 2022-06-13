@@ -1,6 +1,6 @@
 package com.math;
 
-import com.utils.Utils;
+import java.util.Arrays;
 
 class FindMedian {
 
@@ -9,7 +9,8 @@ class FindMedian {
         // List<Integer> arr = Arrays.asList(5, 4, 3, 1, 2);
         // Collections.sort(arr);
         int[] arr = { 1, 3, 4, 2, 6, 5, 8, 7 };
-        Utils.prtArrSrt(arr);
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
         int len = arr.length;
         int mid = len / 2;
         System.out.println("Mid index:" + mid);

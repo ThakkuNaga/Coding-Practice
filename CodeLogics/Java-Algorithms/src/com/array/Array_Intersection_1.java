@@ -21,11 +21,13 @@ public class Array_Intersection_1 {
     for (int i = 0; i < nums1.length; i++) {
         set.add(nums1[i]);
     }
+    System.out.println(set);
     for (int i = 0; i < nums2.length; i++) {
         if (set.contains(nums2[i])) {
             intersect.add(nums2[i]);
         }
     }
+    System.out.println(intersect);
     int[] result = new int[intersect.size()];
     int i = 0;
     for (int num : intersect) {

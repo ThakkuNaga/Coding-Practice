@@ -6,13 +6,13 @@ public class BinarySearch1 {
 
     public static void main(String... args) {
 
-        int target = 88;
-        int n = 100;
+        int target = 8;
+        int n = 11;
         int arr[] = new int[n];
 
         // Adding elements in the array
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = i + 1;
+            arr[i] = i;
         }
 
         System.out.println(Arrays.toString(arr));
@@ -21,8 +21,9 @@ public class BinarySearch1 {
     }
 
     static int findVal(int[] arr, int target) {
-        int N = arr.length;
-        int left = 0, right = N - 1, pivot;
+        int left = 0;
+        int right = arr.length-1;
+        int pivot = 0;
 
         while (left <= right) {
             pivot = (left + (right - left) / 2);

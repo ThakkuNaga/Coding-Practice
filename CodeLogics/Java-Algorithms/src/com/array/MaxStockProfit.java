@@ -7,12 +7,12 @@ public class MaxStockProfit { // 122. Best Time to Buy and Sell Stock II
 
     public static void main(String[] args) {
 
-        int[] prices = { 7, 1, 5, 3, 6, 4 };
+        int[] prices = { 10, 7, -3, -10, 4, 2, 8, -2, 4, -5, -6 };
         // prices={7,6,4,3,1};
         // prices={1,2,3,4,5};
 
-        System.out.println("maxProfit is: " + maxProfit(prices));
-        // System.out.println("maxProfit is: " + maxProfit2(prices));
+        //System.out.println("maxProfit is: " + maxProfit(prices));
+         System.out.println("maxProfit is: " + maxProfit2(prices));
 
     }
 

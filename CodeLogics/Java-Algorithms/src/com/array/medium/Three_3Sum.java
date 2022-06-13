@@ -4,17 +4,43 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class TripletWithZeroSum_3Sum {
+public class Three_3Sum {
 
     public static void main(String... args) throws Exception {
         int[] arr1 = { -1, 0, 1, 2, -1, -4 };
         int[] arr2 = { -8, -7, 5, 2 };
         int[] arr3 = {  0, 0, 0 };
         int[] arr4 = { -2, 0, 0, 2, 2};
-        System.out.println(threeSum(arr4));
+        System.out.println(threeSum(arr1));
     }
 
-    private static List<List<Integer>> threeSum(int[] arr) {
+    public static List<List<Integer>> threeSum(int[] num) {
+        Arrays.sort(num);
+        List<List<Integer>> res = new ArrayList<>(); 
+
+        for (int i = 0; i < num.length-2; i++) {
+
+            if (i == 0 || (i > 0 && num[i] != num[i-1])) {
+                int st = i+1, end = num.length-1, sum = 0 - num[i];
+
+                while (st < end) {
+                    if (num[st] + num[end] == sum) {
+                        res.add(Arrays.asList(num[i], num[st], num[end]));
+                        while (st < end && num[st] == num[st+1]) st++;
+                        while (st < end && num[end] == num[end-1]) end--;
+                        st++; end--;
+                    } else if (num[st] + num[end] < sum) {
+                        st++;
+                    }else{
+                        end--;
+                    } 
+               }
+            }
+        }
+        return res;
+    }
+
+    private static List<List<Integer>> threeSum2(int[] arr) {
 
         List<List<Integer>> result = new ArrayList<>(); 
         Arrays.sort(arr);
@@ -47,32 +73,6 @@ public class TripletWithZeroSum_3Sum {
             }
         }
         return result;
-    }
-
-    public static List<List<Integer>> threeSum2(int[] num) {
-        Arrays.sort(num);
-        List<List<Integer>> res = new ArrayList<>(); 
-
-        for (int i = 0; i < num.length-2; i++) {
-
-            if (i == 0 || (i > 0 && num[i] != num[i-1])) {
-                int st = i+1, end = num.length-1, sum = 0 - num[i];
-
-                while (st < end) {
-                    if (num[st] + num[end] == sum) {
-                        res.add(Arrays.asList(num[i], num[st], num[end]));
-                        while (st < end && num[st] == num[st+1]) st++;
-                        while (st < end && num[end] == num[end-1]) end--;
-                        st++; end--;
-                    } else if (num[st] + num[end] < sum) {
-                        st++;
-                    }else{
-                        end--;
-                    } 
-               }
-            }
-        }
-        return res;
     }
 
     public List<List<Integer>> threeSum3(int[] nums) {

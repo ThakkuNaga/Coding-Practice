@@ -11,7 +11,8 @@ public class SingleNumber {
     public static void main(String[] args) {
         int[] nums = { 4, 1, 2, 1, 2 }; // 2,2,1
         Utils.prtLn(findUnique(nums));
-        Utils.prtLn(singleNumber(nums));
+        Utils.prtLn(findUnique2(nums));
+        Utils.prtLn(findUnique3(nums));
     }
 
     public static int findUnique(int[] nums) {
@@ -19,15 +20,15 @@ public class SingleNumber {
         int ans = 0;
 
         for (int num : nums) {
-            System.out.print(ans + "^" + num + " ");
-            System.out.print(Utils.getBin(ans) + "^" + Utils.getBin(num));
+            // System.out.print(ans + "^" + num + " ");
+            // System.out.print(Utils.getBin(ans) + "^" + Utils.getBin(num));
             ans = ans ^ num;
-            System.out.println(" = " + ans + "(" + Utils.getBin(ans) + ")");
+            // System.out.println(" = " + ans + "(" + Utils.getBin(ans) + ")");
         }
         return ans;
     }
 
-    public static int singleNumber(int[] nums) {
+    public static int findUnique2(int[] nums) {
         System.out.println();
         Utils.prtArr(nums);
         int sumOfSet = 0, sumOfNums = 0;
@@ -40,7 +41,21 @@ public class SingleNumber {
             }
             sumOfNums += num;
         }
+        System.out.println("set " + sumOfSet + " arr " + sumOfNums);
         return 2 * sumOfSet - sumOfNums;
+    }
+
+    public static int findUnique3(int[] nums) {
+        HashMap<Integer, Integer> hashmap = new HashMap<>();
+        for (int num : nums)
+            hashmap.put(num, hashmap.getOrDefault(num, 0) + 1);
+
+        System.out.println("map " + hashmap);
+
+        for (int k : hashmap.keySet())
+            if (hashmap.get(k) == 1)
+                return k;
+        return -1;
     }
 
 }

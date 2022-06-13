@@ -19,63 +19,40 @@ class TreeNode {
     }
 }
 
-class BinaryTree {
-    // Root of Binary Tree
+class BinaryTree {   
     TreeNode root;
 
     BinaryTree() {
         root = null;
     }
-
-    /*
-     * Given a binary tree, print its TreeNodes according to the "bottom-up"
-     * postorder traversal.
-     */
+    
     void printPostorder(TreeNode TreeNode) {
         if (TreeNode == null)
-            return;
+            return;        
 
-        // first recur on left subtree
-        printPostorder(TreeNode.left);
-
-        // then recur on right subtree
-        printPostorder(TreeNode.right);
-
-        // now deal with the TreeNode
+        printPostorder(TreeNode.left);      
+        printPostorder(TreeNode.right);       
         System.out.print(TreeNode.val + " ");
     }
-
-    /* Given a binary tree, print its TreeNodes in inorder */
+    
     void printInorder(TreeNode TreeNode) {
         if (TreeNode == null)
             return;
-
-        /* first recur on left child */
-        printInorder(TreeNode.left);
-
-        /* then print the data of TreeNode */
-        System.out.print(TreeNode.val + " ");
-
-        /* now recur on right child */
+        
+        printInorder(TreeNode.left);        
+        System.out.print(TreeNode.val + " ");       
         printInorder(TreeNode.right);
     }
 
-    /* Given a binary tree, print its TreeNodes in preorder */
     void printPreorder(TreeNode TreeNode) {
         if (TreeNode == null)
             return;
-
-        /* first print data of TreeNode */
-        System.out.print(TreeNode.val + " ");
-
-        /* then recur on left sutree */
-        printPreorder(TreeNode.left);
-
-        /* now recur on right subtree */
+       
+        System.out.print(TreeNode.val + " ");        
+        printPreorder(TreeNode.left);        
         printPreorder(TreeNode.right);
     }
-
-    // Wrappers over above recursive functions
+    
     void printPostorder() {
         printPostorder(root);
     }
@@ -88,50 +65,37 @@ class BinaryTree {
         printPreorder(root);
     }
 
-    static void print2DTree(TreeNode root) {
-        // Pass initial space count as 0
+    static void print2DTree(TreeNode root) {       
         printTree2D(root, 0);
     }
 
     static void printTree2D(TreeNode root, int space) {
-        int COUNT = 4;
-        // Base case
+        int COUNT = 4;      
         if (root == null)
             return;
-
-        // Increase distance between levels
-        space += COUNT;
-
-        // Process right child first
+       
+        space += COUNT;       
         printTree2D(root.right, space);
-
-        // Print current node after space
-        // count
+       
         System.out.print("\n");
         for (int i = COUNT; i < space; i++)
             System.out.print(" ");
         System.out.print(root.val + "\n");
-
-        // Process left child
+       
         printTree2D(root.left, space);
     }
 
-    public static TreeNode createBinaryTree(int[] arr, TreeNode root, int i) {
-        // Base case for recursion
+    public static TreeNode createBinaryTree(int[] arr, TreeNode root, int i) {       
         if (i < arr.length) {
             TreeNode temp = new TreeNode(arr[i]);
             root = temp;
-
-            // insert left child
-            root.left = createBinaryTree(arr, root.left, 2 * i + 1);
-
-            // insert right child
+           
+            root.left = createBinaryTree(arr, root.left, 2 * i + 1);          
             root.right = createBinaryTree(arr, root.right, 2 * i + 2);
         }
         return root;
     }
-
-    // Driver method
+   
     public static void main(String[] args) {
         // BinaryTree tree = new BinaryTree();
         // tree.root = new TreeNode(1);

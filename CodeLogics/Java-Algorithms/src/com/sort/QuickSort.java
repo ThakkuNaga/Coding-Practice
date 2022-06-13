@@ -2,18 +2,16 @@ package com.sort;
 
 import java.util.Arrays;
 
-import com.utils.Utils;
-
 public class QuickSort {
     public static void main(String[] args) {
         int[] arr = { 10, 7, 8, 9, 1, 5 };
-        Utils.prtArrIdx(arr);
+        //Utils.prtArrIdx(arr);
         quickSort(arr, 0, arr.length - 1);
         System.out.println(Arrays.toString(arr));
     }
 
-    private static void quickSort(int[] arr, int left, int right) {
-        if (left >= right)
+    public static void quickSort(int[] arr, int left, int right) {
+        if (left >= right)                                                                         
             return;
         int pivot = arr[left + (right - left) / 2];
         int index = partition(arr, left, right, pivot);

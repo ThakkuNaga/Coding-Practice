@@ -28,6 +28,20 @@ public class Streams {
         System.out.println(even);
 
         IntStream.range(0, 10).forEach(System.out::print);
+
+        System.out.println();
+
+        System.out.println(findAverage(new int[]{4000,3000,1000,2000}));
+
+    }
+
+    public static double findAverage(int[] salary) {
+        return Arrays.stream(salary)
+                .sorted()
+                .skip(1)
+                .limit(salary.length - 2)
+                .average()
+                .getAsDouble();
     }
 
 }

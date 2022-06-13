@@ -1,15 +1,17 @@
 package com.main;
 
+import com.utils.Utils;
+
 public class TestClass {
 
     public static void main(String... args) {
-        // Utils u = new Utils();
+         Utils u = new Utils();
         // u.pt("strawberries".substring(2, 5));
 
         // boolean b1 = true, b2 = false;
-        // int i1 = 1, i2 = 2;
+         int i1 = 6, i2 = -6;
 
-        // u.pt(i1 & i2);
+         u.pt(i1 & i2);
         // u.pt(i1 ^ i2);
         // u.pt(i1 | i2);
 

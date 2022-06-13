@@ -19,11 +19,11 @@ public class BT_LevelOrder {
             return;
 
         final Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
+        queue.offer(root);
         while (!queue.isEmpty()) {
             final int size = queue.size();
             for (int i = 0; i < size; i++) {
-                TreeNode x = queue.remove();
+                TreeNode x = queue.poll();
 
                 System.out.print(x.val + " ");
 

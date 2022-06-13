@@ -14,8 +14,8 @@ public class BST_PostOrder {
         BinaryTree.print2DTree(tree.root);
 
         System.out.println(postOrderRecursive(tree.root));
-        System.out.println(postOrderIterative(tree.root));
-        System.out.println(postOrderTraversal(tree.root));
+        //System.out.println(postOrderIterative(tree.root));
+        //System.out.println(postOrderTraversal(tree.root));
     }
 
     public static List<Integer> postOrderRecursive(TreeNode root) {

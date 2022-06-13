@@ -1,5 +1,7 @@
 package com.array;
 
+import java.util.Arrays;
+
 import com.utils.Utils;
 
 public class SingleNumberIII {
@@ -12,11 +14,26 @@ public class SingleNumberIII {
 
     public static void main(String[] args) {
         int[] nums = { 1, 2, 3, 1, 5, 2 };
-        Utils.prtArr(singleNumber(nums));
-        Utils.prtArr(singleNumberIII(nums));
+        //Utils.prtArr(singleNumber(nums));
+        Utils.prtArr(singleNumber2(nums));
     }
 
     public static int[] singleNumber(int[] nums) {
+        Arrays.sort(nums);
+        int[] pair = new int[2];
+        int index=0;
+        for(int i=0;i<nums.length-1;i+=2){
+            if(nums[i]==nums[i+1])
+                continue;
+            pair[index++]=nums[i--];
+            if(index==2)
+                return pair;
+        }
+        pair[1]=nums[nums.length-1];
+        return pair;
+    }
+
+    public static int[] singleNumber2(int[] nums) {
         // Pass 1 : 
         // Get the XOR of the two numbers we need to find
         int diff = 0;
@@ -42,7 +59,7 @@ public class SingleNumberIII {
         return rets;
     }
 
-    public static int[] singleNumberIII(int[] nums) {
+    public static int[] singleNumber3(int[] nums) {
         if (nums == null || nums.length < 2 || nums.length % 2 != 0) {
             throw new IllegalArgumentException("Invalid Input");
         }

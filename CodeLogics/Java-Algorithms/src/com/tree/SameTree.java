@@ -59,18 +59,6 @@ public class SameTree {
         isSameTreeRecursive(p.left, q.left);
     }
 
-    public static boolean check(TreeNode p, TreeNode q) {
-        // p and q are null
-        if (p == null && q == null)
-            return true;
-        // one of p and q is null
-        if (q == null || p == null)
-            return false;
-        if (p.val != q.val)
-            return false;
-        return true;
-    }
-
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null)
             return true;
@@ -105,6 +93,18 @@ public class SameTree {
                 }
             }
         }
+        return true;
+    }
+
+    public static boolean check(TreeNode p, TreeNode q) {
+        // p and q are null
+        if (p == null && q == null)
+            return true;
+        // one of p and q is null
+        if (q == null || p == null)
+            return false;
+        if (p.val != q.val)
+            return false;
         return true;
     }
 

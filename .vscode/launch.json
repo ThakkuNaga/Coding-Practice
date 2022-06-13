@@ -6,6 +6,391 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Find2ndSmallest",
+            "request": "launch",
+            "mainClass": "com.array.medium.Find2ndSmallest",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch TestClass",
+            "request": "launch",
+            "mainClass": "main.TestClass",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "main.Main",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch NameMatch",
+            "request": "launch",
+            "mainClass": "com.test.NameMatch",
+            "projectName": "java8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution2",
+            "request": "launch",
+            "mainClass": "com.java.Solution2",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pagination",
+            "request": "launch",
+            "mainClass": "com.interviews.Pagination",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch CashRegisterChallenge",
+            "request": "launch",
+            "mainClass": "com.interviews.CashRegisterChallenge",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Strings",
+            "request": "launch",
+            "mainClass": "com.main.Strings",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Coin",
+            "request": "launch",
+            "mainClass": "com.interviews.Coin",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BuildStorybook",
+            "request": "launch",
+            "mainClass": "com.interviews.karat.BuildStorybook",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubwaySystem",
+            "request": "launch",
+            "mainClass": "com.interviews.SubwaySystem",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsAnagram",
+            "request": "launch",
+            "mainClass": "com.array.easy.IsAnagram",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ContainsDuplicate",
+            "request": "launch",
+            "mainClass": "com.array.easy.ContainsDuplicate",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunLengthEncoding",
+            "request": "launch",
+            "mainClass": "com.string.RunLengthEncoding",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Flippy",
+            "request": "launch",
+            "mainClass": "com.interviews.Flippy",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortItems",
+            "request": "launch",
+            "mainClass": "com.interviews.SortItems",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FetchToDisplay",
+            "request": "launch",
+            "mainClass": "com.interviews.FetchToDisplay",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch1",
+            "request": "launch",
+            "mainClass": "com.search.BinarySearch1",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindWordFromGrid_2",
+            "request": "launch",
+            "mainClass": "com.interviews.FindWordFromGrid_2",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SentencesSimilar",
+            "request": "launch",
+            "mainClass": "com.leetcode.medium.SentencesSimilar",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch CamelMatch",
+            "request": "launch",
+            "mainClass": "com.leetcode.medium.CamelMatch",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntersectionOfArrays",
+            "request": "launch",
+            "mainClass": "com.leetcode.easy.IntersectionOfArrays",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateString",
+            "request": "launch",
+            "mainClass": "com.leetcode.easy.RotateString",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch DomainCount",
+            "request": "launch",
+            "mainClass": "com.interviews.DomainCount",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountCharacters",
+            "request": "launch",
+            "mainClass": "com.leetcode.medium.CountCharacters",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountCharacters",
+            "request": "launch",
+            "mainClass": "com.leetcode.easy.CountCharacters",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SignOnAlert",
+            "request": "launch",
+            "mainClass": "com.leetcode.medium.SignOnAlert",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidSudoku",
+            "request": "launch",
+            "mainClass": "com.leetcode.medium.ValidSudoku",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidSuduku",
+            "request": "launch",
+            "mainClass": "com.leetcode.medium.ValidSuduku",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReassignArray",
+            "request": "launch",
+            "mainClass": "com.assesments.ReassignArray",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindWordFromGrid",
+            "request": "launch",
+            "mainClass": "com.interviews.FindWordFromGrid",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordExist",
+            "request": "launch",
+            "mainClass": "com.leetcode.medium.WordExist",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeCodeWays",
+            "request": "launch",
+            "mainClass": "com.leetcode.medium.DeCodeWays",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MovieRecommendation",
+            "request": "launch",
+            "mainClass": "com.interviews.MovieRecommendation",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "com.search.BinarySearch",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubtractProductAndSum",
+            "request": "launch",
+            "mainClass": "com.leetcode.easy.SubtractProductAndSum",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberOfBits",
+            "request": "launch",
+            "mainClass": "com.leetcode.easy.NumberOfBits",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortColors",
+            "request": "launch",
+            "mainClass": "com.leetcode.easy.SortColors",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClimbStairs",
+            "request": "launch",
+            "mainClass": "com.assesments.ClimbStairs",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch StairsCaseProblem",
+            "request": "launch",
+            "mainClass": "com.assesments.StairsCaseProblem",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch InPlaceSort",
+            "request": "launch",
+            "mainClass": "com.leetcode.medium.InPlaceSort",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Three_3Sum",
+            "request": "launch",
+            "mainClass": "com.array.medium.Three_3Sum",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsMajorityElement",
+            "request": "launch",
+            "mainClass": "com.leetcode.medium.IsMajorityElement",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MajorityElement_II",
+            "request": "launch",
+            "mainClass": "com.leetcode.medium.MajorityElement_II",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MajorityElement_I",
+            "request": "launch",
+            "mainClass": "com.leetcode.easy.MajorityElement_I",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxElement",
+            "request": "launch",
+            "mainClass": "com.leetcode.easy.MaxElement",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "com.leetcode.easy.Solution",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindAverage",
+            "request": "launch",
+            "mainClass": "com.interviews.FindAverage",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountOdds",
+            "request": "launch",
+            "mainClass": "com.leetcode.easy.CountOdds",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solutions",
+            "request": "launch",
+            "mainClass": "com.leetcode.easy.Solutions",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch TextJustification",
+            "request": "launch",
+            "mainClass": "com.leetcode.hard.TextJustification",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch BT_LevelOrder",
+            "request": "launch",
+            "mainClass": "com.tree.BT_LevelOrder",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidTile",
+            "request": "launch",
+            "mainClass": "com.interviews.ValidTile",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mahjong",
+            "request": "launch",
+            "mainClass": "com.interviews.Mahjong",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch DivisorGame",
             "request": "launch",
             "mainClass": "com.interviews.DivisorGame",

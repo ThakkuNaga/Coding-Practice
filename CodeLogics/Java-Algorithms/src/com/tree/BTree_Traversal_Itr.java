@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class Tree_Traversal_Itr {
+public class BTree_Traversal_Itr {
 
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();

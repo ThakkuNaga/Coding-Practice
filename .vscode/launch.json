@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TopKFrequent",
+            "request": "launch",
+            "mainClass": "com.array.medium.TopKFrequent",
+            "projectName": "Coding-Practice_df26f883"
+        },
+        {
+            "type": "java",
+            "name": "GroupAnagrams",
+            "request": "launch",
+            "mainClass": "com.string.medium.GroupAnagrams",
+            "projectName": "Coding-Practice_df26f883"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "com.array.TwoSum",
+            "projectName": "Coding-Practice_df26f883"
+        },
+        {
+            "type": "java",
+            "name": "Valid_Anagram",
+            "request": "launch",
+            "mainClass": "com.string.Valid_Anagram",
+            "projectName": "Coding-Practice_df26f883"
+        },
+        {
+            "type": "java",
+            "name": "ContainsDuplicate",
+            "request": "launch",
+            "mainClass": "com.array.ContainsDuplicate",
+            "projectName": "Coding-Practice_df26f883"
+        },
+        {
+            "type": "java",
+            "name": "Launch BTree_Traversal_Rec",
+            "request": "launch",
+            "mainClass": "com.tree.BTree_Traversal_Rec",
+            "projectName": "Coding-Practice_e4623718"
+        },
+        {
+            "type": "java",
             "name": "Launch Find2ndSmallest",
             "request": "launch",
             "mainClass": "com.array.medium.Find2ndSmallest",

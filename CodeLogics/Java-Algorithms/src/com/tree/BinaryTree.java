@@ -121,4 +121,10 @@ class BinaryTree {
         // System.out.println("\nPostorder traversal of binary tree is ");
         // tree.printPostorder();
     }
+
+    public static TreeNode create(int[] arr, TreeNode root, int i) {
+        root = createBinaryTree(arr, root, 0);
+        print2DTree(root);
+        return root;
+    }
 }

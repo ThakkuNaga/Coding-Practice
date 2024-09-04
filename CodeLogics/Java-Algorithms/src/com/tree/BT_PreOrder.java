@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
-public class BST_PreOrder {
+public class BT_PreOrder {
 
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();

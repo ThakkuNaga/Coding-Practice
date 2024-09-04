@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class BST_InOrder {
+public class BT_InOrder {
 
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();

@@ -5,13 +5,13 @@ import com.utils.Utils;
 public class TestClass {
 
     public static void main(String... args) {
-         Utils u = new Utils();
-        // u.pt("strawberries".substring(2, 5));
+        //  Utils u = new Utils();
+        // // u.pt("strawberries".substring(2, 5));
 
-        // boolean b1 = true, b2 = false;
-         int i1 = 6, i2 = -6;
+        // // boolean b1 = true, b2 = false;
+        //  int i1 = 6, i2 = -6;
 
-         u.pt(i1 & i2);
+        //  u.pt(i1 & i2);
         // u.pt(i1 ^ i2);
         // u.pt(i1 | i2);
 
@@ -22,9 +22,22 @@ public class TestClass {
         // final double d = 1 / 2d;
         // System.out.print(d);
 
-        String s = "a?zs";
+        // String s = "a?zs";
 
-        System.out.println(modifyString1(s));
+        // System.out.println(modifyString1(s));
+
+        String str ="abaaccddddefg";
+        
+        Map<String, Integer> map = new HashMap<>();
+ 
+        for(Character c: str.toCharArray()){
+            if(map.containsKey(c)){
+                map.put(c, map.getValue(c)+1);
+            }else{
+                map.put(c, 1);
+            }
+        }
+        System.out.println(map);
 
     }
 

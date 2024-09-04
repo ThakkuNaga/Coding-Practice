@@ -9,11 +9,11 @@ public class Valid_Anagram {
 
     public static void main(String[] args) {
         String s = "anagram";
-        s = "aacc";
-        s = "Hello";
+        // s = "aacc";
+        // s = "Hello";
         String t = "nagaram";
-        t = "ccac";
-        t = "hello";
+        // t = "ccac";
+        // t = "hello";
         Utils.prtLn(isAnagram(s, t));
         Utils.prtLn(isAnagram1(s, t));
         Utils.prtLn(isAnagram2(s, t));

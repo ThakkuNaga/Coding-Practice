@@ -8,10 +8,10 @@ import com.utils.Utils;
 public class TwoSum {
 
     public static void main(String[] args) {
-        // int[] nums = { 2, 7, 11, 15 };
         int[] nums = { 2, 7, 11, 15 };
+        //int[] nums = { 2, 7, 11, 15 };
         // 0 1 2 3
-        Utils.prtArr(twoSum(nums,7));
+        Utils.prtArr(twoSum(nums,17));
 
     }
 

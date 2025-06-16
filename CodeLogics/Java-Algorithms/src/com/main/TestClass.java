@@ -1,7 +1,5 @@
 package com.main;
 
-import com.utils.Utils;
-
 public class TestClass {
 
     public static void main(String... args) {
@@ -26,18 +24,18 @@ public class TestClass {
 
         // System.out.println(modifyString1(s));
 
-        String str ="abaaccddddefg";
+        //String str ="abaaccddddefg";
         
-        Map<String, Integer> map = new HashMap<>();
+        // Map<String, Integer> map = new HashMap<>();
  
-        for(Character c: str.toCharArray()){
-            if(map.containsKey(c)){
-                map.put(c, map.getValue(c)+1);
-            }else{
-                map.put(c, 1);
-            }
-        }
-        System.out.println(map);
+        // for(char c: str.toCharArray()){
+        //     if(map.containsKey(c)){
+        //         map.put(c, map.getOrDefault(c, null)+1);
+        //     }else{
+        //         map.put(c, 1);
+        //     }
+        // }
+        //System.out.println(map);
 
     }
 

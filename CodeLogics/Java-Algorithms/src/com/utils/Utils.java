@@ -1,6 +1,7 @@
 package com.utils;
 
 import java.util.Arrays;
+import java.util.List;
 
 import com.linkedlist.Node;
 
@@ -10,10 +11,12 @@ public class Utils {
         int[] nums = { 1, 2, 3, 4, 5, 6, 7 };
         int[][] mat = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
         String[] str = { "a", "b", "c", "d" };
+        List<Integer> lst = Arrays.asList(1, 2, 3, 4, 5);
         prtArr(nums);
         prtArr(str);
         prt2D(mat);
         prtMatArr(mat);
+        prtArr(lst);
     }
 
     public static void prtArr(int[] nums) {
@@ -149,6 +152,14 @@ public class Utils {
             }
             System.out.println(sb.toString());
         }
+    }
+
+    public static void prtArr(List<Integer> lstOfIntegers) {
+        StringBuilder sb = new StringBuilder();
+        for (Integer i : lstOfIntegers) {
+            sb.append(i + " ");
+        }
+        System.out.println(sb.toString());
     }
 
 }

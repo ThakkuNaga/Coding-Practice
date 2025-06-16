@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestConsecutiveSeq",
+            "request": "launch",
+            "mainClass": "com.array.LongestConsecutiveSeq",
+            "projectName": "Coding-Practice_8be844cd"
+        },
+        {
+            "type": "java",
+            "name": "ProductOfArrayExceptSelf",
+            "request": "launch",
+            "mainClass": "com.array.ProductOfArrayExceptSelf",
+            "projectName": "Coding-Practice_8be844cd"
+        },
+        {
+            "type": "java",
+            "name": "Utils",
+            "request": "launch",
+            "mainClass": "com.utils.Utils",
+            "projectName": "Coding-Practice_8be844cd"
+        },
+        {
+            "type": "java",
+            "name": "TopKFrequent",
+            "request": "launch",
+            "mainClass": "com.array.medium.TopKFrequent",
+            "projectName": "Coding-Practice_8be844cd"
+        },
+        {
+            "type": "java",
+            "name": "GroupAnagrams",
+            "request": "launch",
+            "mainClass": "com.string.medium.GroupAnagrams",
+            "projectName": "Coding-Practice_8be844cd"
+        },
+        {
+            "type": "java",
+            "name": "ArraySolutions",
+            "request": "launch",
+            "mainClass": "com.array.ArraySolutions",
+            "projectName": "Coding-Practice_8be844cd"
+        },
+        {
+            "type": "java",
+            "name": "Valid_Anagram",
+            "request": "launch",
+            "mainClass": "com.string.Valid_Anagram",
+            "projectName": "Coding-Practice_8be844cd"
+        },
+        {
+            "type": "java",
+            "name": "ContainsDuplicate",
+            "request": "launch",
+            "mainClass": "com.array.ContainsDuplicate",
+            "projectName": "Coding-Practice_8be844cd"
+        },
+        {
+            "type": "java",
+            "name": "Strings",
+            "request": "launch",
+            "mainClass": "com.main.Strings",
+            "projectName": "Coding-Practice_8be844cd"
+        },
+        {
+            "type": "java",
+            "name": "ArraySolutions",
+            "request": "launch",
+            "mainClass": "com.main.ArraySolutions",
+            "projectName": "Coding-Practice_8be844cd"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "com.array.TwoSum",
+            "projectName": "Coding-Practice_8be844cd"
+        },
+        {
+            "type": "java",
             "name": "TopKFrequent",
             "request": "launch",
             "mainClass": "com.array.medium.TopKFrequent",

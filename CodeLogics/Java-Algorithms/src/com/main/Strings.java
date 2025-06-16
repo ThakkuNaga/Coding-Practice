@@ -3,15 +3,35 @@ package com.main;
 class Strings {
     public static void main(String[] args) {
 
+        System.out.println("getWrongAnswers: "+ getWrongAnswers(3, "ABA"));
+        System.out.println();
+
         String s = "dog";
         countOfChars(s);
+        System.out.println();
 
         String s1 = "A man, a plan, a canal: Panama";
         String s2 = "race a car";
-        System.out.println(isPalindrome(s2));
+        System.out.println("isPalindrome: "+isPalindrome(s2));
+        System.out.println();
 
         String s3 = "aaabbbcccaddbb";
-        System.out.println(runLengthEncoding(s3));
+        System.out.println("runLengthEncoding: "+runLengthEncoding(s3));
+    }
+
+    private static String getWrongAnswers(int N, String C) {
+        
+        String out = "";    
+        for (int i = 0; i < N; i++) {
+            System.out.println(C.charAt(i));
+            char ch = (C.charAt(i) == 'A') ? 'B' : 'A';
+            
+            out = out + String.valueOf(ch);
+            System.out.println("char "+i+" = "+ch);
+            System.out.println("output "+out);
+        }
+
+        return out;        
     }
 
     private static String runLengthEncoding(String s) {

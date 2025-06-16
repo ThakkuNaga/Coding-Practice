@@ -8,8 +8,15 @@ import java.util.Set;
 class ArraySolutions {
     public static void main(String[] args) {
 
+        
+
         String s = "dog";
         countOfChars(s);
+
+        Integer x =1000;
+        Integer y =1000;
+
+        System.out.println((x.equals(y)));
 
         int[] nums = { 1, 2, 3, 4 };
         System.out.println(containsDuplicate(nums));

@@ -10,7 +10,7 @@ public class ContainsDuplicate {
 
         int[] nums = { 7, 1, 5, 3, 1, 4 };
         // int[] nums2 = { 0, 1, 2, 3, 4, 5 };
-        System.out.println("Contains Duplicate : " + containsDuplicate1(nums));
+        System.out.println("Contains Duplicate : " + containsDuplicate2(nums));
 
     }
 
@@ -19,6 +19,7 @@ public class ContainsDuplicate {
         System.out.println(Arrays.toString(nums));
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
+                System.out.println("nums["+i+"] "+nums[i]+"== nums["+j+"] "+nums[j]);
                 if (nums[i] == nums[j]) {
                     return true;
                 }
@@ -30,6 +31,7 @@ public class ContainsDuplicate {
     // Approach #2 (Sorting) [Accepted]
     public static boolean containsDuplicate1(int[] nums) {
         Arrays.sort(nums);
+        System.out.println(Arrays.toString(nums));
         for (int i = 0; i < nums.length - 1; ++i) {
             if (nums[i] == nums[i + 1])
                 return true;
@@ -40,10 +42,13 @@ public class ContainsDuplicate {
 
     // Approach #3 (Hash Table) [Accepted]
     public static boolean containsDuplicate2(int[] nums) {
+        System.out.println(Arrays.toString(nums));
         Set<Integer> set = new HashSet<>(nums.length);
         for (int x : nums) {
-            if (!set.add(x))
+            System.out.println(x+">>");
+            if (!set.add(x)){
                 return true;
+            }
         }
         return false;
     }
